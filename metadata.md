@@ -98,7 +98,30 @@
 - **Man dao le (Bac Ha)**: 500 ha man, san luong 4.000 tan
 - **Nguon**: baolaocai.vn, nhandan.vn, nongnghiepmoitruong.vn
 
-#### 5.11. Ho Noi
+#### 5.11. Bac Ninh - Vai/Thieu
+- **Vai thiieu**: 25.000 tan XK, gia tri 20 trieu USD
+- **Thi truong**: Trung Quoc 24.500 tan, EU 53 tan, Nhat Ban 45 tan, Uc 42 tan, My 20 tan
+- **Nguon**: socongthuongbacninh.gov.vn
+
+#### 5.12. Lai Chau - Tra
+- **Dien tich**: 10.531 ha che
+- **San luong**: 60.300 tan but tuoi -> 12.500 tan thanh pham
+- **XK**: 12.440 tan/nam, gia tri 37,3 trieu USD
+- **Thi truong**: Trung Dong, Bac Phi, Nam A ($2-3/kg)
+- **Nguon**: vietnamnet.vn
+
+#### 5.13. Bac Kan - San (mien dong)
+- **San luong**: 3.300 tan san
+- **XK**: ~10 tan/nam sang Czech
+- **Gia**: $3/kg
+- **San pham**: Mien dong Tai Hoan OCOP 5 sao
+- **Nguon**: nongnghiepmoitruong.vn
+
+#### 5.14. Phu Tho - Tra
+- **XK**: 17.000 tan, gia tri 30 trieu USD
+- **Nguon**: phutho.gov.vn, congthuong.vn
+
+#### 5.15. Ha Noi
 - **Cay an qua**: 13.000 ha, san luong 200.000 tan (buoi 100.000 tan)
 - **Bieu dien**: buoi Dien, buoi do Me Linh
 - **Nguon**: kinhtedothi.vn
@@ -173,3 +196,19 @@ Du lieu xuat khau la them moi, hien thi o tab rieng.
 - File chinh: `chart_standalone.html` (26 KB - hoat dong offline file://)
 - File du lieu: `pie_chart_data_2024.json` (62 KB), `export_data_2024.json` (253 KB)
 - Nguoi thuc hien: Research project ve nong san mien Bac 2024
+
+### 7. Tong hop tinh co du lieu xuat khau (12/24 tinh)
+| Tinh | Mat hang | San luong XK | Gia tri |
+|------|----------|--------------|---------|
+| Son La | San, ca phe, tra, xoai | 148.200 tan | 150,7 trieu USD |
+| Bac Giang | Vai, thieu | 77.700 tan | - |
+| Hoa Binh | San, buoi | 42.275 tan | 22,2 trieu USD |
+| Bac Ninh | Vai/thieu | 25.000 tan | 20 trieu USD |
+| Phu Tho | Tra | 17.000 tan | 30 trieu USD |
+| Hai Duong | Vai | 15.000 tan | - |
+| Lai Chau | Tra | 12.440 tan | 37,3 trieu USD |
+| Lao Cai | Man/dao/le | 4.000 tan | - |
+| Ha Giang | Tra | 4.000 tan | 7 trieu USD |
+| Hung Yen | Nhan | 500 tan | - |
+| Bac Kan | San (mien dong) | 10 tan | 30.000 USD |
+| Thai Nguyen | Tra | 1 tan | 1,6 trieu USD |
