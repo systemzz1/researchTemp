@@ -2400,10 +2400,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": 8000000,
-        "export_value_usd": 14000000,
-        "source": "congthuong.vn; agro.gov.vn - Yên Bái nông sản 2024",
-        "note": "Yên Bái 7,800ha chè, 74,000t búp tươi/năm. Tổng XK nông lâm sản chế biến 160 triệu USD. Chè XK sang Anh, Nhật, Nga, Đức, Pakistan, Đài Loan, TQ. Ước ~8,000t chè XK (5-8% sản lượng cả nước ~146,000t)."
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh"
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -2800,10 +2800,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "export_kg": 12440000,
+        "export_value_usd": 37320000,
+        "source": "vietnamnet.vn - Lai Chau tra 2024",
+        "note": "Lai Chau 10,531 ha tra, 60,300 tan but tuoi -> 12,500 tan thanh pham. XK 12,440 tan/nam sang Trung Dong, Bac Phi, Nam A ($2-3/kg)."
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -4098,10 +4098,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Sắn": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "export_kg": 10000,
+        "export_value_usd": 30000,
+        "source": "nongnghiepmoitruong.vn - Be Can miendong OCOP",
+        "note": "Miến dong Tài Hoàn OCOP 5sao, XK ~10t/nam sang Czech, giá $3/kg."
       },
       "Cam": {
         "export_kg": null,

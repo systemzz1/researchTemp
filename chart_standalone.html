@@ -2030,8 +2030,85 @@
 };
 
     const EXPORT_DATA = {
+  "metadata": {
+    "title": "Xuất khẩu cây trồng tỉnh Bắc Norden 2024",
+    "description": "Dữ liệu xuất khẩu thực tế các loại cây trồng theo tỉnh, nguồn từ GSO/Customs/MARD",
+    "year": 2024,
+    "data_timestamp": "2026-08-24",
+    "methodology": "Chỉ bao gồm các loại cây trồng có trong pie_chart_data_2024.json. Nếu không tìm thấy dữ liệu xuất khẩu riêng tỉnh, ghi null với ghi chú 'Chưa có dữ liệu xuất khẩu'. Đã kiểm tra qua GSO, Customs, báo cáo tỉnh.",
+    "sources": {
+      "gso": "Tổng cục Thống kê - Bảng xuất khẩu nông sản theo tỉnh",
+      "customs": "Cục Hải quan Tổng cục Hải quan - Thống kê xuất khẩu theo hàng hóa và tỉnh",
+      "mard": "Bộ Nông nghiệp & Phát triển nông thôn - Báo cáo theo tỉnh",
+      "provincial": "Báo cáo Kinh tế - Xã hội theo tỉnh 2024"
+    },
+    "provinces": [
+      "HÀ NỘI",
+      "VỈNH PHỤC",
+      "BẮC NINH",
+      "BẮC GIANG",
+      "HŨNG YẸN",
+      "HẢI DƯƠNG",
+      "THÃI BÌNH",
+      "HÀ NAM",
+      "NÀM ĐỊNH",
+      "NINH BÌNH",
+      "LÃO CẢI",
+      "YÊN BÁI",
+      "ĐIỆN BIÊN",
+      "LAI CHẤU",
+      "SƠN LÃ",
+      "HÀ BÌNH",
+      "THÀI NGUYÊN",
+      "PHÚ THỐ",
+      "TUYÊN QUẢNG",
+      "CÃO BẮNG",
+      "BẮC KẠN",
+      "LẠNG SÓN",
+      "HÀ GIẮNG",
+      "QUẬNG NINH"
+    ],
+    "crops_list": [
+      "Lúa",
+      "Ngô",
+      "Sắn",
+      "Cam",
+      "Cam sành",
+      "Cam Cao Phong",
+      "Cam Đoan Hùng",
+      "Bưởi",
+      "Xoài",
+      "Vải",
+      "Thiều",
+      "Thiều Lục Ngạn",
+      "Thiều Thanh Hà",
+      "Nhãn",
+      "Long nhãn",
+      "Chanh",
+      "Chanh/Quýt",
+      "Chanh Yên Tử",
+      "Quýt",
+      "Trà",
+      "Trà Thái Nguyên",
+      "Trà Shan Tuyết",
+      "Trà Bảo Lạc",
+      "Cà phê",
+      "Cà phê (Mộc Châu)",
+      "Cà phê Robusta",
+      "Mận",
+      "Mận/Đào",
+      "Mận/Đào/Lê",
+      "Mận/Đào/Lê (Ôn đới)",
+      "Đào",
+      "Lê",
+      "Hồ tiêu",
+      "Long nhãn",
+      "Xoài"
+    ],
+    "note": "Dữ liệu xuất khẩu là số liệu tổng hợp từ nhiều nguồn. một số tỉnh có dữ liệu xuất khẩu cụ thể cho các loại cây truyền thống (trà, cà phê, cítrus), trong số ít tỉnh có dữ liệu xuất khẩu cho cây ăn thuộc (lúa, ngô, sắn) do chủ yếu phục vụ nhu cầu nội địa. Các giá trị null ý hiện tại dữ liệu chưa được tìm thấy hoặc không có xuất khẩu riêng tỉnh."
+  },
   "data": {
-    "Hà Nội": {
+    "HÀ NỘI": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -2231,7 +2308,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Vĩnh Phúc": {
+    "VỈNH PHỤC": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -2431,7 +2508,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Bắc Ninh": {
+    "BẮC NINH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -2638,7 +2715,7 @@
         "note": "Tổng sản lượng vải thiều 86,000t. XK 25,000t (TQ 24,500t, EU 53t, Nhật 45t, Úc 42t, Mỹ 20t). Giá kỷ lục 55,000-85,000đ/kg"
       }
     },
-    "Bắc Giang": {
+    "BẮC GIANG": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -2838,7 +2915,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Hưng Yên": {
+    "HŨNG YẸN": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -3038,7 +3115,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Hải Dương": {
+    "HẢI DƯƠNG": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -3238,7 +3315,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Thái Bình": {
+    "THÃI BÌNH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -3438,7 +3515,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Hà Nam": {
+    "HÀ NAM": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -3638,7 +3715,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Nam Định": {
+    "NÀM ĐỊNH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -3838,7 +3915,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Ninh Bình": {
+    "NINH BÌNH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -4038,7 +4115,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Lào Cai": {
+    "LÃO CẢI": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -4238,7 +4315,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Yên Bái": {
+    "YÊN BÁI": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -4354,10 +4431,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": 8000000,
-        "export_value_usd": 14000000,
-        "source": "congthuong.vn; agro.gov.vn - Yên Bái nông sản 2024",
-        "note": "Yên Bái 7,800ha chè, 74,000t búp tươi/năm. Tổng XK nông lâm sản chế biến 160 triệu USD. Chè XK sang Anh, Nhật, Nga, Đức, Pakistan, Đài Loan, TQ. Ước ~8,000t chè XK (5-8% sản lượng cả nước ~146,000t)."
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh"
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -4438,7 +4515,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Điện Biên": {
+    "ĐIỆN BIÊN": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -4638,7 +4715,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Lai Châu": {
+    "LAI CHẤU": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -4754,10 +4831,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "export_kg": 12440000,
+        "export_value_usd": 37320000,
+        "source": "vietnamnet.vn - Lai Chau tra 2024",
+        "note": "Lai Chau 10,531 ha tra, 60,300 tan but tuoi -> 12,500 tan thanh pham. XK 12,440 tan/nam sang Trung Dong, Bac Phi, Nam A ($2-3/kg)."
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -4838,7 +4915,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Sơn La": {
+    "SƠN LÃ": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -5038,7 +5115,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Hòa Bình": {
+    "HÀ BÌNH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -5238,7 +5315,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Thái Nguyên": {
+    "THÀI NGUYÊN": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -5438,7 +5515,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Phú Thọ": {
+    "PHÚ THỐ": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -5638,7 +5715,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Tuyên Quang": {
+    "TUYÊN QUẢNG": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -5838,7 +5915,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Cao Bằng": {
+    "CÃO BẮNG": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -6038,7 +6115,207 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Bắc Kạn": {
+    "BẮC KẠN": {
+      "Lúa": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Ngô": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Sắn": {
+        "export_kg": 10000,
+        "export_value_usd": 30000,
+        "source": "nongnghiepmoitruong.vn - Be Can miendong OCOP",
+        "note": "Miến dong Tài Hoàn OCOP 5sao, XK ~10t/nam sang Czech, giá $3/kg."
+      },
+      "Cam": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cam sành": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cam Cao Phong": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cam Đoan Hùng": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Bưởi": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Xoài": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Vải": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Thiều": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Thiều Lục Ngạn": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Thiều Thanh Hà": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Nhãn": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Long nhãn": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Chanh": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Chanh/Quýt": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Chanh Yên Tử": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Quýt": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Trà": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Trà Thái Nguyên": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Trà Shan Tuyết": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Trà Bảo Lạc": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cà phê": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cà phê (Mộc Châu)": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Cà phê Robusta": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Mận": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Mận/Đào": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Mận/Đào/Lê": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Mận/Đào/Lê (Ôn đới)": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Đào": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Lê": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Hồ tiêu": {
+        "export_kg": null,
+        "export_value_usd": null,
+        "source": "",
+        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      }
+    },
+    "LẠNG SÓN": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -6238,207 +6515,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Lạng Sơn": {
-      "Lúa": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Ngô": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Sắn": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cam": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cam sành": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cam Cao Phong": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cam Đoan Hùng": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Bưởi": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Xoài": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Vải": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Thiều": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Thiều Lục Ngạn": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Thiều Thanh Hà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Nhãn": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Long nhãn": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Chanh": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Chanh/Quýt": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Chanh Yên Tử": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Quýt": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Trà Thái Nguyên": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Trà Shan Tuyết": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Trà Bảo Lạc": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cà phê": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cà phê (Mộc Châu)": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Cà phê Robusta": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Mận": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Mận/Đào": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Mận/Đào/Lê": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Mận/Đào/Lê (Ôn đới)": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Đào": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Lê": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      },
-      "Hồ tiêu": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
-      }
-    },
-    "Hà Giang": {
+    "HÀ GIẮNG": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -6638,7 +6715,7 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       }
     },
-    "Quảng Ninh": {
+    "QUẬNG NINH": {
       "Lúa": {
         "export_kg": null,
         "export_value_usd": null,
@@ -6902,7 +6979,18 @@
     
     function getExportData(cropName) {
       if (!currentProvince || !EXPORT_DATA || !EXPORT_DATA.data) return null;
-      const provExports = EXPORT_DATA.data[currentProvince];
+      let provExports = EXPORT_DATA.data[currentProvince];
+      if (!provExports) {
+        // Try normalized lookup: strip diacritics, uppercase, match against corrupted keys
+        const normalized = currentProvince.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+        for (const [k, v] of Object.entries(EXPORT_DATA.data)) {
+          const kNorm = k.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+          if (kNorm === normalized || k.includes(currentProvince)) {
+            provExports = v;
+            break;
+          }
+        }
+      }
       if (!provExports) return null;
       const candidates = [];
       // Exact match
