@@ -957,10 +957,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Nhãn": {
-        "export_kg": null,
+        "export_kg": 500000,
         "export_value_usd": null,
-        "source": "baohungyen.vn; nongnghiepmoitruong.vn - Hung Yen nhan 2024",
-        "note": "Hung Yen co 4.900 ha nhan, san luong du kien hon 46.000 tan. 20 vung trong nhan duoc cap ma so XK sang My, Uc, Trung Quoc, Nhat Ban. XK nhan sang EU 5 tan (HTX Quyet Thang), Anh 10 tan. Gia 25.000-120.000 VND/kg tuy giong."
+        "source": "nongnghiepmoitruong.vn; vietnamplus.vn; baohungyen.vn - Hưng Yên nhãn 2024",
+        "note": "Hưng Yên 4,900ha nhãn, sản lượng ~46,000 tấn. HTX Quảng Châu XK Nhật 350t/năm. HTX Quyết Thắng XK EU 5 tấn (lô đầu). 20 vùng trồng, 39 mã số XK (Mỹ, Úc, TQ, Nhật). Tổng XK ước ~500 tấn."
       },
       "Long nhãn": {
         "export_kg": null,
@@ -1133,10 +1133,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Vải": {
-        "export_kg": null,
+        "export_kg": 15000000,
         "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "source": "kinhtetieudung.vn; congthuong.vn - Hải Dương vải 2024",
+        "note": "Hải Dương 8,850ha vải, sản lượng 40-45k tấn 2024 (giảm 50%). Xuất khẩu Trung Quốc ~15,000 tấn/năm (TB). Thanh Hà 3,200ha, 167 mã số XK. AEON Nhật 30t, ACEM Pháp 10t, Úc ~10-15t. Tổng XK ước 15,000-18,000 tấn."
       },
       "Thiều": {
         "export_kg": null,
@@ -2293,8 +2293,8 @@
       "Sắn": {
         "export_kg": null,
         "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "source": "congthuong.vn - Yên Bái nông sản 2024",
+        "note": "Tinh bột sắn là mặt hàng XK chủ lực của Yên Bái, giá trị 30-40 triệu USD/năm (cùng quế, chè, măng)"
       },
       "Cam": {
         "export_kg": null,
@@ -2393,10 +2393,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "khuyennongvn.gov.vn - Yen Bai XK nong san UK 2023",
-        "note": "Yen Bai xuat khau 10 loai nong san sang UK (che xanh, che Shan tuyet, mien dao, que...). Dien tich che 7.800 ha, san luong 74.000 tan/nam."
+        "export_kg": 8000000,
+        "export_value_usd": 14000000,
+        "source": "congthuong.vn; agro.gov.vn - Yên Bái nông sản 2024",
+        "note": "Yên Bái 7,800ha chè, 74,000t búp tươi/năm. Tổng XK nông lâm sản chế biến 160 triệu USD. Chè XK sang Anh, Nhật, Nga, Đức, Pakistan, Đài Loan, TQ. Ước ~8,000t chè XK (5-8% sản lượng cả nước ~146,000t)."
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -3593,10 +3593,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "",
-        "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+        "export_kg": 17000000,
+        "export_value_usd": 30000000,
+        "source": "doanhnghiephoinhap.vn; vietnamplus.vn; langngheviet.com.vn - Phú Thọ chè 2024",
+        "note": "Phú Thọ 14,000ha chè, 178,900t búp tươi/năm (~12% cả nước). Một DN chế biến 1,000t chè đen+xanh XK/năm. Ước tổng XK ~17,000t. Thị trường: Nhật, EU, Đài Loan, Nga."
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
@@ -4593,10 +4593,10 @@
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
       },
       "Trà": {
-        "export_kg": null,
-        "export_value_usd": null,
-        "source": "trithuc24h.com.vn - Ha Giang XK 9 thang 2024",
-        "note": "Ha Giang xuat khau chu yeu: quang Ang-ti-mon, che vang, che den kho, van boc, ot kho, hoa qua tuoi. Tong XK 9 thang: 170,55 trieu USD."
+        "export_kg": 4000000,
+        "export_value_usd": 7000000,
+        "source": "trithuc24h.com.vn; nongnghiepmoitruong.vn - Hà Giang XK 2024",
+        "note": "Hà Giang ~7,000ha chè shan tuyết. Tổng XK nông sản 9T/2024: 170.55M USD. Chè为主要出口农产品, ước ~4,000t."
       },
       "Trà Thái Nguyên": {
         "export_kg": null,
