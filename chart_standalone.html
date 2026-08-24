@@ -62,6 +62,7 @@
     
     <div class="chart-wrapper">
       <div id="chart"></div>
+      <div id="chartMessage" style="display:none;position:absolute;inset:0;align-items:center;justify-content:center;color:#8a9ab0;font-size:1.1rem;background:rgba(255,255,255,0.95);border-radius:20px;z-index:10;"></div>
     </div>
     
     <div class="legend-custom" id="customLegend"></div>
@@ -7171,6 +7172,17 @@
       return '#95a5a6';
     }
     
+    function showNoData(msg) {
+      if (chart) { chart.clear(); }
+      const el = document.getElementById('chartMessage');
+      el.textContent = msg;
+      el.style.display = 'flex';
+    }
+    
+    function hideNoData() {
+      document.getElementById('chartMessage').style.display = 'none';
+    }
+    
     function populateProvinces() {
       const select = document.getElementById('provinceSelect');
       allData.metadata.provinces.forEach(p => {
@@ -7218,7 +7230,7 @@
     
     function renderExportChart(crops) {
       if (crops.length === 0) {
-        document.getElementById('chart').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#8a9ab0;font-size:1.1rem;">Không có dữ liệu xuất khẩu cho bộ lọc này</div>';
+        showNoData('Không có dữ liệu xuất khẩu cho bộ lọc này');
         document.getElementById('customLegend').innerHTML = '';
         document.getElementById('stats').innerHTML = '';
         return;
@@ -7380,6 +7392,8 @@
       const provData = allData.data[currentProvince];
       if (!provData) return;
       
+      hideNoData();
+      
       // Handle export filter
       let crops = [];
       if (currentFilter === 'export') {
@@ -7396,7 +7410,7 @@
       crops = filterCrops(crops);
       
       if (crops.length === 0) {
-        document.getElementById('chart').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#8a9ab0;font-size:1.1rem;">Không có dữ liệu cho bộ lọc này</div>';
+        showNoData('Không có dữ liệu cho bộ lọc này');
         document.getElementById('customLegend').innerHTML = '';
         document.getElementById('stats').innerHTML = '';
         return;
