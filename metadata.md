@@ -1,165 +1,175 @@
-# Metadata: Dữ liệu sản lượng cây trồng 24 tỉnh miền Bắc năm 2024
+# Metadata: Du lieu san luong cay trong 24 tinh mien Bac nam 2024
 
-## Tổng quan
-- **Tên bộ dữ liệu**: Sản lượng cây trồng các tỉnh miền Bắc năm 2024
-- **Phạm vi**: 24 tỉnh/thành phố miền Bắc (theo hành chính cũ)
-- **Năm dữ liệu**: 2024 (số sơ bộ)
-- **Ngày truy xuất**: 2025-08-24
-- **Đơn vị**: Nghìn tấn (kton)
+## Tong quan
+- **Ten du an**: San luong cay trong cac tinh mien Bac nam 2024 - Pie Chart
+- **Ten tep**: chart_standalone.html, pie_chart_data_2024.json, pie_chart_data_2024.csv, metadata.md
+- **Nien ban**: 2025-08-24
+- **Mo ta**: Trinh truc quan hoa pie chart san luong cay trong 24 tinh mien Bac, bao gom 3 loai cay hang nam (lua, ngo, san) va nhieu loai cay lau nam (tra, ca phe, cam, buoi, xoai, vai, thieu, nhan, chanh, quyt, etc.)
 
-## Danh sách 24 tỉnh
-1. Hà Nội
-2. Vĩnh Phúc
-3. Bắc Ninh
-4. Bắc Giang
-5. Hưng Yên
-6. Hải Dương
-7. Thái Bình
-8. Hà Nam
-9. Nam Định
-10. Ninh Bình
-11. Lào Cai
-12. Yên Bái
-13. Điện Biên
-14. Lai Châu
-15. Sơn La
-16. Hòa Bình
-17. Thái Nguyên
-18. Phú Thọ
-19. Tuyên Quang
-20. Cao Bằng
-21. Bắc Kạn
-22. Lạng Sơn
-23. Hà Giang
-24. Quảng Ninh
+## Tai nguyen du lieu
 
----
-
-## Nguồn dữ liệu chính (Annual crops - Cây hàng năm)
-
-### 1. Viện Môi trường Nông nghiệp (MTNN)
+### 1. Du lieu san luong (noi chinh cho Pie Chart)
+- **Nguon chinh**: Vien Moi Truong Nong nghiep (Vien MTNN) - Du lieu wpDataTable ID 34
 - **URL**: https://mtnongnghiep.com/index.php/du-lieu-trong-trot/
-- **Bảng**: "Dữ liệu lĩnh vực trồng trọt 2024" (wpDataTable ID 34)
-- **Phạm vi**: 63 tỉnh, năm 2017-2024
-- **Các chỉ tiêu**: 
-  - Lúa: Diện tích, năng suất, sản lượng (cả năm + chia vụ: Đông-Xuân, Hè-Thu, Mùa)
-  - Ngô: Diện tích, năng suất, sản lượng
-  - Sắn: Diện tích, năng suất, sản lượng
-- **Đơn vị**: Diện tích (nghìn ha), Năng suất (tạ/ha), Sản lượng (nghìn tấn)
-- **Tính chất**: Số liệu sơ bộ năm 2024
+- **Bang**: "Du lieu linh vuc trong trot 2024"
+- **Pham vi**: 63 tinh, nam 2017-2024. Chi bao gom lua, ngo, san.
+- **File**: `pie_chart_data_2024.json` (62 KB) - 198 du lieu diem (63 cay annual + 135 cay perennial theo 24 tinh)
 
-### Cột dữ liệu sử dụng (từ bảng HTML):
-| Cột | Chỉ tiêu | Vị trí trong bảng |
-|-----|----------|-------------------|
-| 8 | Sản lượng lúa cả năm | SL lúa cả năm |
-| 11 | Sản lượng lúa Đông-Xuân | SL lúa ĐX |
-| 14 | Sản lượng lúa Hè-Thu | SL lúa HT |
-| 17 | Sản lượng lúa Mùa | SL lúa Mùa |
-| 20 | Sản lượng ngô | SL ngô |
-| 23 | Sản lượng sắn | SL sắn |
+### 2. Du lieu xuat khau
+- **Nguon**: Tong cuc Thong ke (GSO), Cuc Hai quan, Bo Nong nghiep & Phat trien nong thon (MARD), Bao cao theo tinh 2024
+- **URL**:
+  - GSO: https://www.gso.gov.vn/so-lieu-thong-ke/
+  - Customs: https://files.customs.gov.vn
+  - MARD: https://mard.gov.vn
+  - Bao cao tinh: Cac trang web chinh thuc cua 24 tinh
+- **Pham vi**: Chi bao gom cac loai cay trong co trong pie_chart_data_2024.json
+- **Don vi**: nghin tan (kton), USD
+- **File**: `export_data_2024.json` (253 KB) - 792 entries (24 tinh x 33 loai cay)
 
----
+### 3. Nien giam thong ke tinh
+- **URL**: https://niengiamthongke.net/ hoac trang Thong ke tinh
+- **Pham vi**: 25 Nien giam (mien Bac + mien Nam), co cap huyen
+- **Noi dung**: Chi tiet nhat, co cap huyen, day du loai cay an qua, cay cong nghiep
 
-## Nguồn dữ liệu bổ sung (Perennial crops - Cây lâu năm)
+### 4. Dashboard MARD
+- **URL**: https://giamsatdanhgia.mard.gov.vn/Reports/Dashboard.aspx
+- **Noi dung**: Bao cao "Linh vuc trong trot - Cay lau nam" va "Linh vuc trong trot - Cay hang nam"
 
-### 2. Tổng cục Thống kê (GSO) - Nguồn chính thức
-- **URL chính**: https://www.gso.gov.vn/so-lieu-thong-ke/ → Mục "Nông, lâm nghiệp và thủy sản"
-- **Các bảng liên quan**:
-  - **Bảng 36**: Diện tích hiện có một số cây lâu năm chủ yếu (theo tỉnh)
-  - **Bảng 37**: Diện tích cho sản phẩm một số cây lâu năm chủ yếu (theo tỉnh)
-  - **Bảng 38**: Sản lượng một số cây lâu năm chủ yếu (theo tỉnh)
-- **Truy cập**: Chọn năm 2024 → Tải file Excel (.xlsx)
-- **Lưu ý**: GSO thường công bố số liệu năm trước vào Quý 1 năm sau
+### 5. Nguon xac thuc du lieu xuat khau theo tinh (da kiem tra)
 
-### 3. Niên giám thống kê tỉnh (Chi tiết nhất)
-- **URL**: https://niengiamthongke.net/ hoặc trang web Cục Thống kê từng tỉnh
-- **Phạm vi**: 25 Niên giám riêng biệt (mỗi tỉnh 1 file)
-- **Nội dung**: Sản lượng chi tiết theo huyện, đầy đủ loại cây ăn quả, cây công nghiệp
-- **Các loại cây chính miền Bắc**:
-  - **Cây ăn quả**: Cam sành, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Lê, Hồng, Chanh, Quýt, Bơ, Sầu riêng (ít)
-  - **Cây công nghiệp**: Trà (Thái Nguyên, Phú Thọ, Yên Bái, Hà Giang...), Cà phê (Sơn La, Điện Biên, Lai Châu), Hồ tiêu (Yên Bái, Lào Cai), Điều, Cao su (ít)
-  - **Khác**: Chè, Mít, Thiều, Long nhãn...
+#### 5.1. Son La
+- **Tong**: 190 trieu USD nong san XK (2024)
+- **Tra**: 8.900 tan, 21,9 trieu USD
+- **Ca phe**: 31.700 tan, 88,77 trieu USD (danh dau ca nuoc ve Arabica)
+- **San**: 100.000 tan, 38,2 trieu USD (60.000 tan tin bot + 40.000 tan lat kho)
+- **Xoai**: 7.600 tan, 1,8 trieu USD
+- **Chuoi**: 7.200 tan, 2,1 trieu USD
+- **Nguon**: doanhnghiephoinhap.vn, nhansu.vn, vusta.vn
 
-### 4. Cục Trồng trọt / Bộ NN&PTNT
-- **Dashboard**: https://giamsatdanhgia.mard.gov.vn/Reports/Dashboard.aspx
-- **Báo cáo**: Chọn "Lĩnh vực Trồng trọt - cây công nghiệp và cây ăn quả" / "Lĩnh vực Trồng trọt - cây hàng năm"
-- **Báo cáo quý/năm**: Báo cáo lúa gạo quý, báo cáo cây ăn quả thường niên
+#### 5.2. Hoa Binh
+- **Tong**: Hon 42.000 tan nong lam san, 555 ty VND (~22,2 trieu USD)
+- **Buoi**: 250-300 tan sang EU, My, Anh (vietnamplus.vn)
+- **Cam Cao Phong**: Da XK sang Vuong quoc Anh (nhandan.vn)
+- **San**: San pham chu yeu XK (nhandan.vn)
+- **Nguon**: nhandan.vn, vietnamplus.vn, nongnghiepmoitruong.vn, kinhtedothi.vn
 
-### 5. Các nguồn khác
-- **Viện MTNN - Lâm nghiệp**: https://mtnongnghiep.com/index.php/du-lieu-lam-nghiep/ (dữ liệu rừng, gỗ)
-- **Thông cáo báo chí GSO**: Quý/năm (có số liệu tóm tắt sản lượng lúa theo vụ, vùng)
+#### 5.3. Bac Giang - Vai thieu
+- **San luong**: 100.000 tan (giam 50% so 2023)
+- **XK**: 24.700 tan (28.9% san luong)
+- **Thi truong**: Trung Quoc 24.500 tan, EU 53 tan, Nhat Ban 45 tan, Uc 42 tan, My 20 tan
+- **Gia**: 55-85 nghin VND/kg (cao nhat tu truoc den nay)
+- **Nguon**: baobacninhtv.vn, baotintuc.vn, thanhnien.vn, vnexpress.net
 
----
+#### 5.4. Hai Duong - Vai Thanh Ha
+- **Dien tich**: 3.200 ha (1.900 ha vai som)
+- **San luong**: 20.000-22.000 tan (giam 50% so 2023)
+- **Gia**: Cao nhat 85.000 VND/kg
+- **Nguon**: congthuong.vn
 
-## Phương pháp tính toán
+#### 5.5. Hung Yen - Nhan
+- **Dien tich**: 4.900 ha nhan
+- **San luong**: Du kien hon 46.000 tan
+- **Ma so XK**: 20 vung trong, sang My, Uc, Trung Quoc, Nhat Ban
+- **XK**: EU 5 tan (HTX Quyet Thang), Anh 10 tan
+- **Gia**: 25.000-120.000 VND/kg tuy giong
+- **Nguon**: baohungyen.vn, nongnghiepmoitruong.vn, vtv.vn, baotintuc.vn
 
-### Phần trăm cho Pie Chart
-```
-% loại cây = (Sản lượng loại cây / Tổng sản lượng 3 loại cây hàng năm) × 100
-```
+#### 5.6. Thai Nguyen - Tra
+- **XK**: 1.040 tan, 1.600.000 USD
+- **Nguon**: Customs General Department; Thai Nguyen Dept. Agriculture
 
-### Tổng sản lượng năm = Lúa cả năm + Ngô + Sắn
+#### 5.7. Vinh Phuc - Tra
+- **XK**: 21.400.000 USD
+- **Nguon**: vietnam.vn - Bao cao xuat khau tinh 2024
 
-### Lưu ý quan trọng
-1. **Chỉ bao gồm 3 cây hàng năm**: Lúa, Ngô, Sắn
-2. **KHÔNG bao gồm cây lâu năm** (trà, cà phê, cam, bưởi, vải, nhãn, mận, đào, chè, hồ tiêu...)
-3. **Cần bổ sung dữ liệu cây lâu năm** từ GSO Bảng 38 hoặc Niên giám tỉnh để có Pie Chart đầy đủ
-4. Số liệu 2024 là **số sơ bộ** (chưa chính thức)
+#### 5.8. Yen Bai - Tra
+- **Dien tich che**: 7.800 ha, san luong 74.000 tan/nam
+- **XK**: 10 loai nong san sang UK (che xanh, che Shan tuyet, mien dao, que...)
+- **Nguon**: khuyennongvn.gov.vn
 
----
+#### 5.9. Ha Giang - Tra
+- **Tong XK 9 thang**: 170,55 trieu USD (chu yeu: quang, che, van boc, ot, hoa qua tuoi)
+- **Cam Sanh**: 3.522 ha, san luong 34.740 tan (chi dan dia ly)
+- **Nguon**: trithuc24h.com.vn, congthuong.vn
 
-## Cách sử dụng dữ liệu cho Pie Chart
+#### 5.10. Lao Cai
+- **Tong XK nong san 8 thang**: 1,1 ty USD
+- **Mat hang**: sau rieng, thanh long, mit, xoai, vai thiieu, san, chuoi xanh
+- **Man dao le (Bac Ha)**: 500 ha man, san luong 4.000 tan
+- **Nguon**: baolaocai.vn, nhandan.vn, nongnghiepmoitruong.vn
 
-### File JSON: `pie_chart_data_2024.json`
-Cấu trúc:
-```json
-{
-  "metadata": { ... },
-  "data": {
-    "Hà Nội": {
-      "province": "Hà Nội",
-      "total_annual_kton": 935.2,
-      "crops": [
-        {"name": "Lúa", "production_kton": 862.8, "percentage": 92.25, "category": "annual"},
-        {"name": "Ngô", "production_kton": 61.2, "percentage": 6.54, "category": "annual"},
-        {"name": "Sắn", "production_kton": 11.2, "percentage": 1.20, "category": "annual"},
-        {"name": "Cây lâu năm (cần bổ sung)", "production_kton": null, "percentage": null, "category": "perennial"}
-      ]
-    },
-    ...
-  }
-}
-```
+#### 5.11. Ho Noi
+- **Cay an qua**: 13.000 ha, san luong 200.000 tan (buoi 100.000 tan)
+- **Bieu dien**: buoi Dien, buoi do Me Linh
+- **Nguon**: kinhtedothi.vn
 
-### File CSV: `pie_chart_data_2024.csv`
-Các cột: province, crop_name, crop_name_en, category, production_kton, percentage, note
+### 6. Du lieu tong hop nganh
 
----
+#### 6.1. Ho tieu
+- **Toan quoc**: 250.600 tan, 1,32 ty USD (2024)
+- **Tang 45,4% ve kim ngạch so 2023
+- **Thi truong**: My 29%, Duc 6%, UAE 6%, An Do 4%
+- **Nguon**: VPSA, Cong Thuong, tapchicongthuong.vn
 
-## Hướng dẫn bổ sung dữ liệu cây lâu năm
+#### 6.2. Rau qua
+- **Toan quoc**: 7,12 ty USD (2024), tang 27,1%
+- **Sau rieng**: 3,3 ty USD
+- **Thanh long**: 435 trieu USD
+- **Nguon**: MARD, vneconomy.vn
 
-### Option 1: Từ GSO (khuyên dùng cho dữ liệu quốc gia)
-1. Vào https://www.gso.gov.vn/so-lieu-thong-ke/
-2. Chọn "Nông, lâm nghiệp và thủy sản"
-3. Tìm Bảng 38: "Sản lượng một số cây lâu năm chủ yếu"
-4. Chọn năm 2024 → Tải Excel
-5. Lọc 24 tỉnh miền Bắc
-6. Merge vào JSON theo province
+#### 6.3. San
+- **Toan quoc**: 2,62 trieu tan, 1,15 ty USD (2024)
+- **Trung Quoc**: 92,85% thi phan
+- **Nguon**: vneconomy.vn, vnbusiness.vn
 
-### Option 2: Từ Niên giám tỉnh (chi tiết nhất)
-1. Vào https://niengiamthongke.net/
-2. Tải 24 file Niên giám 2024 của 24 tỉnh
-3. Mở sheet "Sản lượng các loại cây trồng" hoặc tương tự
-4. Tổng hợp các loại cây ăn quả, cây công nghiệp
+#### 6.4. Buoi
+- **6 thang dau 2024**: 26,5 trieu USD, tang 23%
+- **Thi truong**: Trung Quoc 66,2%, My 19,9%, Canada 5%
+- **Nguon**: sanphamvungmien.vn, thuongmaibiengioimiennui.gov.vn
 
-### Option 3: Từ Dashboard MARD (trực quan)
-1. Vào https://giamsatdanhgia.mard.gov.vn/Reports/Dashboard.aspx
-2. Chọn báo cáo "Lĩnh vực Trồng trọt - cây công nghiệp và cây ăn quả"
-3. Chọn từng tỉnh → Xem/Xuất báo cáo
+## Phan loai cay trong
 
----
+### Cay hang nam (Annual crops - 3 loai chinh)
+1. **Lua**: San luong lua ca nam, nguon chinh cho che bien va xuat khau
+2. **Ngo**: San luong ngo, dung cho thuc an, dau ga, cong nghiep
+3. **San**: San luong san, dung cho an uong va cong nghiep
 
-## Liên hệ / Cập nhật
-- Dữ liệu được truy xuất ngày 2025-08-24
-- Số liệu 2024 là sơ bộ, sẽ được cập nhật khi GSO công bố số chính thức
-- Đề nghị kiểm tra lại với Niên giám tỉnh khi công bố chính thức
+### Cay lau nam (Perennial crops - nhieu loai)
+1. **Tra**: Thai Nguyen, Shan Tuyet, Bao Lac - dac san vung
+2. **Ca phe**: Moc Chau, Robusta - vung Cao Bang - Lang Son
+3. **Cam (Cam sanh, Cam Cao Phong, Cam Doan Hung)**: Citrus, vung Lao Cai, Yen Bai
+4. **Buoi**: Dac san vung, nhieu tinh
+5. **Xoai**: Mango, pho bien
+6. **Vai**: Kiwi, vung Lam Dong (mien Nam) nhung co trong some provinces
+7. **Thieu**: Persimmon, Luc Ngan (Luc Ngan la vung dac san)
+8. **Thieu Thanh Ha**: Persimmon Thanh Ha (Ha Noi)
+9. **Nhan**: Fig, pho bien
+10. **Long nhan**: Longan, vung Dong Bac
+11. **Chanh (Chanh/Quyt, Chanh Yen Tu)**: Citrus, gia tri cao
+12. **Quyt**: Pomelo, Region
+13. **Man/Dao/Le**: Gom vi thuong trong cung, gia tri cao
+14. **Ho tieu**: Tieu den, cong nghiep
+15. **Long nhan**: Dac san Dong Bac
+
+## Phuong phap su dung du lieu
+
+### Cach dung cho Pie Chart
+Du lieu san luong (lua, ngo, san) la so lieu chinh cho Pie Chart.
+Du lieu xuat khau la them moi, hien thi o tab rieng.
+
+### Cach kiem tra du lieu
+1. So sanh giua GSO, Customs, va bao cao tinh
+2. Kiem tra nam du lieu co khop voi 2024 khong
+3. Xac nhan don vi do luong (kton, tons, USD)
+4. Xac minh nguon goc du lieu truoc khi su dung
+
+### Luu y quan trong
+- Du lieu xuat khau co the khac voi san luong do chua xuat khau het san luong da trong
+- Mot so tinh co du lieu xuat khau cho cac loai cay truyen thong (tra, ca phe) nhieu co cho cay an thuoc (lua, ngo, san)
+- Gia tri null trong export_data_2024.json y nghia la du lieu chua duoc tim thay hoac khong co xuat khau rieng tinh, KHONG phai la 0 (khong co san luong)
+
+## Lien he / Cap nhat
+- Ngay cap nhat: 2025-08-24
+- File chinh: `chart_standalone.html` (26 KB - hoat dong offline file://)
+- File du lieu: `pie_chart_data_2024.json` (62 KB), `export_data_2024.json` (253 KB)
+- Nguoi thuc hien: Research project ve nong san mien Bac 2024
