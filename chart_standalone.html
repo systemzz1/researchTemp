@@ -7266,7 +7266,7 @@ item.innerHTML = `<span class="legend-color" style="background:${getColor(c.name
           formatter: (p) => {
             const c = allExportCrops[p.dataIndex];
             const kg = c.export_kg;
-            const displayKg = kg >= 1000000 ? (kg / 1000000).toFixed(1) + ' triệu kg' : (kg / 1000).toFixed(0) + ' tấn';
+            const displayKg = kg >= 1000000 ? (kg / 1000000).toFixed(1) + ' kt' : (kg / 1000).toFixed(0) + ' t';
             return `<strong style="color:#fff;font-size:14px">${c.cropName}</strong><br/>` +
                    `<span style="color:#b8c5d6">Tỉnh:</span> <strong style="color:#fff">${c.province}</strong><br/>` +
                    `<span style="color:#b8c5d6">Xuất khẩu:</span> <strong style="color:#fff">${displayKg}</strong><br/>` +
@@ -7306,7 +7306,7 @@ item.innerHTML = `<span class="legend-color" style="background:${getColor(c.name
             position: 'right',
             formatter: (p) => {
               const kg = p.value;
-              return kg >= 1000000 ? (kg / 1000000).toFixed(1) + 'M kg' : (kg / 1000).toFixed(0) + ' tấn';
+              return kg >= 1000000 ? (kg / 1000000).toFixed(1) + ' kt' : (kg / 1000).toFixed(0) + ' t';
             },
             fontSize: 10,
             color: '#5a6a8a'
@@ -7344,7 +7344,7 @@ item.innerHTML = `<span class="legend-color" style="background:${getColor(c.name
           const item = document.createElement('span');
           item.className = 'legend-item';
           const kgVal = c.export_kg;
-          const displayVal = kgVal >= 1000000 ? (kgVal / 1000000).toFixed(1) + 'M kg' : (kgVal / 1000).toFixed(0) + ' tấn';
+          const displayVal = kgVal >= 1000000 ? (kgVal / 1000000).toFixed(1) + ' kt' : (kgVal / 1000).toFixed(0) + ' t';
           item.innerHTML = `<span class="legend-color" style="background:${getColor(c.cropName)}"></span><span>${c.province} - ${c.cropName}</span><span style="color:#8a9ab0;font-size:0.75rem;">${displayVal}</span>`;
           group.appendChild(item);
         });
