@@ -384,7 +384,7 @@
           "name": "Lúa",
           "name_en": "Rice",
           "production_kton": 260.3,
-          "percentage": 94.07,
+          "percentage": 72.81,
           "category": "annual",
           "detail": {
             "total": 260.3,
@@ -397,22 +397,14 @@
           "name": "Ngô",
           "name_en": "Maize",
           "production_kton": 16.4,
-          "percentage": 5.93,
+          "percentage": 4.59,
           "category": "annual"
-        },
-        {
-          "name": "Cây lâu năm (cần bổ sung)",
-          "name_en": "Perennial crops (to be added)",
-          "production_kton": null,
-          "percentage": null,
-          "category": "perennial",
-          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
         },
         {
           "name": "Xoài",
           "name_en": "Xoài",
           "production_kton": 14.2,
-          "percentage": 4.88,
+          "percentage": 3.97,
           "category": "perennial",
           "note": "Khoái Châu, Tiên Lữ, Phù Cừ"
         },
@@ -420,7 +412,7 @@
           "name": "Cam/Bưởi",
           "name_en": "Cam/Bưởi",
           "production_kton": 9.8,
-          "percentage": 3.42,
+          "percentage": 2.74,
           "category": "perennial",
           "note": "Ân Thi, Mỹ Hào"
         },
@@ -428,7 +420,7 @@
           "name": "Vải/Thiều",
           "name_en": "Vải/Thiều",
           "production_kton": 6.5,
-          "percentage": 2.3,
+          "percentage": 1.82,
           "category": "perennial",
           "note": "Văn Giang, Yên Mỹ"
         },
@@ -436,13 +428,21 @@
           "name": "Chanh",
           "name_en": "Chanh",
           "production_kton": 4.3,
-          "percentage": 1.53,
+          "percentage": 1.2,
           "category": "perennial",
           "note": "Các huyện"
+        },
+        {
+          "name": "Nhãn",
+          "name_en": "Longan",
+          "production_kton": 46.0,
+          "percentage": 12.87,
+          "category": "perennial",
+          "note": "Hưng Yên 4,900 ha, sản lượng 40,000-46,000 tấn. 20 vùng trồng, 39 mã số XK (Mỹ, Úc, TQ, Nhật)"
         }
       ],
       "has_perennial_data": true,
-      "total_with_perennial_kton": 311.5,
+      "total_with_perennial_kton": 357.5,
       "perennial_source": "Niên giám Hưng Yên 2024"
     },
     "Hải Dương": {

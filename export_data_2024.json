@@ -675,6 +675,13 @@
         "export_value_usd": null,
         "source": "",
         "note": "Chưa có dữ liệu xuất khẩu riêng tỉnh - cây này chủ yếu phục vụ nhu cầu nội địa hoặc dữ liệu chưa được tìm thấy qua GSO/Customs/MARD"
+      },
+      "Vải/Thiều": {
+        "export_kg": 25000000,
+        "export_value_usd": 20000000,
+        "source": "Sở Công Thương Bắc Ninh - baobacninhtv.vn 07/2024",
+        "year": 2024,
+        "note": "Tổng sản lượng vải thiều 86,000t. XK 25,000t (TQ 24,500t, EU 53t, Nhật 45t, Úc 42t, Mỹ 20t). Giá kỷ lục 55,000-85,000đ/kg"
       }
     },
     "BẮC GIANG": {
