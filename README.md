@@ -4,7 +4,7 @@ Trực quan hóa dữ liệu sản lượng và xuất khẩu cây trồng của
 
 ## Mục đích
 
-Đây là bài research mình làm cho bạn gái, tổng hợp số liệu về sản lượng các giống cây chủ đạo ở miền Bắc — chia làm cây hàng năm (lúa, ngô, sắn) và cây lâu năm (trà, cà phê, cam, bưởi, vải, nhãn, xoài...). Dữ liệu được hiển thị dưới dạng biểu đồ tròn (pie chart) kèm số liệu xuất khẩu.
+Đây là bài research mình làm tổng hợp số liệu về sản lượng các giống cây chủ đạo ở miền Bắc — chia làm cây hàng năm (lúa, ngô, sắn) và cây lâu năm (trà, cà phê, cam, bưởi, vải, nhãn, xoài...). Dữ liệu được hiển thị dưới dạng biểu đồ tròn (pie chart) kèm số liệu xuất khẩu.
 
 ## Điểm đặc biệt
 
