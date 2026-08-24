@@ -1,0 +1,266 @@
+{
+  "Bắc Giang": {
+    "rice": 495.7,
+    "maize": 43.5,
+    "cassava": 15.2,
+    "rice_detail": {
+      "total": 495.7,
+      "dong_xuan": 280.5,
+      "he_thu": 0,
+      "mua": 215.2
+    }
+  },
+  "Bắc Kạn": {
+    "rice": 112.5,
+    "maize": 58.9,
+    "cassava": 3.3,
+    "rice_detail": {
+      "total": 112.5,
+      "dong_xuan": 47.4,
+      "he_thu": 0,
+      "mua": 65.1
+    }
+  },
+  "Bắc Ninh": {
+    "rice": 339.8,
+    "maize": 4.7,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 339.8,
+      "dong_xuan": 193.6,
+      "he_thu": 0,
+      "mua": 146.2
+    }
+  },
+  "Cao Bằng": {
+    "rice": 136.0,
+    "maize": 147.8,
+    "cassava": 59.3,
+    "rice_detail": {
+      "total": 136.0,
+      "dong_xuan": 18.8,
+      "he_thu": 0,
+      "mua": 117.1
+    }
+  },
+  "Điện Biên": {
+    "rice": 209.3,
+    "maize": 77.7,
+    "cassava": 157.4,
+    "rice_detail": {
+      "total": 209.3,
+      "dong_xuan": 58.4,
+      "he_thu": 0,
+      "mua": 150.9
+    }
+  },
+  "Hà Giang": {
+    "rice": 214.1,
+    "maize": 198.6,
+    "cassava": 53.6,
+    "rice_detail": {
+      "total": 214.1,
+      "dong_xuan": 53.9,
+      "he_thu": 0,
+      "mua": 160.2
+    }
+  },
+  "Hà Nam": {
+    "rice": 337.7,
+    "maize": 25.4,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 337.7,
+      "dong_xuan": 187.0,
+      "he_thu": 0,
+      "mua": 150.7
+    }
+  },
+  "Hà Nội": {
+    "rice": 862.8,
+    "maize": 61.2,
+    "cassava": 11.2,
+    "rice_detail": {
+      "total": 862.8,
+      "dong_xuan": 508.7,
+      "he_thu": 0,
+      "mua": 354.0
+    }
+  },
+  "Hải Dương": {
+    "rice": 644.6,
+    "maize": 21.3,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 644.6,
+      "dong_xuan": 363.5,
+      "he_thu": 0,
+      "mua": 281.1
+    }
+  },
+  "Hòa Bình": {
+    "rice": 214.1,
+    "maize": 147.5,
+    "cassava": 119.5,
+    "rice_detail": {
+      "total": 214.1,
+      "dong_xuan": 97.1,
+      "he_thu": 0,
+      "mua": 117.0
+    }
+  },
+  "Hưng Yên": {
+    "rice": 260.3,
+    "maize": 16.4,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 260.3,
+      "dong_xuan": 166.4,
+      "he_thu": 0,
+      "mua": 93.9
+    }
+  },
+  "Lai Châu": {
+    "rice": 155.0,
+    "maize": 73.3,
+    "cassava": 84.2,
+    "rice_detail": {
+      "total": 155.0,
+      "dong_xuan": 38.5,
+      "he_thu": 0,
+      "mua": 116.5
+    }
+  },
+  "Lạng Sơn": {
+    "rice": 217.9,
+    "maize": 103.9,
+    "cassava": 8.2,
+    "rice_detail": {
+      "total": 217.9,
+      "dong_xuan": 80.0,
+      "he_thu": 0,
+      "mua": 137.8
+    }
+  },
+  "Lào Cai": {
+    "rice": 178.9,
+    "maize": 131.5,
+    "cassava": 103.2,
+    "rice_detail": {
+      "total": 178.9,
+      "dong_xuan": 60.0,
+      "he_thu": 0,
+      "mua": 118.9
+    }
+  },
+  "Nam Định": {
+    "rice": 843.1,
+    "maize": 15.0,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 843.1,
+      "dong_xuan": 488.5,
+      "he_thu": 0,
+      "mua": 354.6
+    }
+  },
+  "Ninh Bình": {
+    "rice": 434.6,
+    "maize": 16.9,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 434.6,
+      "dong_xuan": 264.4,
+      "he_thu": 0,
+      "mua": 164.7
+    }
+  },
+  "Phú Thọ": {
+    "rice": 333.2,
+    "maize": 80.0,
+    "cassava": 86.0,
+    "rice_detail": {
+      "total": 333.2,
+      "dong_xuan": 218.4,
+      "he_thu": 0,
+      "mua": 114.8
+    }
+  },
+  "Quảng Ninh": {
+    "rice": 184.5,
+    "maize": 27.5,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 184.5,
+      "dong_xuan": 82.7,
+      "he_thu": 0,
+      "mua": 101.8
+    }
+  },
+  "Sơn La": {
+    "rice": 195.2,
+    "maize": 339.9,
+    "cassava": 537.9,
+    "rice_detail": {
+      "total": 195.2,
+      "dong_xuan": 74.0,
+      "he_thu": 0,
+      "mua": 121.1
+    }
+  },
+  "Tuyên Quang": {
+    "rice": 245.7,
+    "maize": 85.7,
+    "cassava": 21.8,
+    "rice_detail": {
+      "total": 245.7,
+      "dong_xuan": 111.8,
+      "he_thu": 0,
+      "mua": 133.8
+    }
+  },
+  "Thái Bình": {
+    "rice": 867.2,
+    "maize": 53.8,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 867.2,
+      "dong_xuan": 527.2,
+      "he_thu": 0,
+      "mua": 340.0
+    }
+  },
+  "Thái Nguyên": {
+    "rice": 344.4,
+    "maize": 71.5,
+    "cassava": 15.4,
+    "rice_detail": {
+      "total": 344.4,
+      "dong_xuan": 164.4,
+      "he_thu": 0,
+      "mua": 180.0
+    }
+  },
+  "Vĩnh Phúc": {
+    "rice": 294.2,
+    "maize": 42.0,
+    "cassava": 0,
+    "rice_detail": {
+      "total": 294.2,
+      "dong_xuan": 180.3,
+      "he_thu": 0,
+      "mua": 113.9
+    }
+  },
+  "Yên Bái": {
+    "rice": 207.9,
+    "maize": 102.8,
+    "cassava": 157.7,
+    "rice_detail": {
+      "total": 207.9,
+      "dong_xuan": 109.7,
+      "he_thu": 0,
+      "mua": 98.2
+    }
+  }
+}

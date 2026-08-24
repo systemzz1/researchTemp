@@ -1,0 +1,1947 @@
+{
+  "metadata": {
+    "title": "Sản lượng cây trồng các tỉnh miền Bắc năm 2024",
+    "description": "Dữ liệu sản lượng lúa, ngô, sắn (cây hàng năm) và hướng dẫn tra cứu cây lâu năm",
+    "year": 2024,
+    "data_timestamp": "2025-08-24",
+    "sources": {
+      "annual_crops": {
+        "source_name": "Viện Môi trường Nông nghiệp",
+        "source_url": "https://mtnongnghiep.com/index.php/du-lieu-trong-trot/",
+        "table_name": "Dữ liệu lĩnh vực trồng trọt 2024",
+        "accessed_date": "2025-08-24",
+        "note": "Bảng wpDataTable ID 34, dữ liệu 63 tỉnh, năm 2017-2024. Chỉ bao gồm lúa, ngô, sắn."
+      },
+      "perennial_crops": {
+        "source_name": "Tổng cục Thống kê (GSO)",
+        "source_url": "https://www.gso.gov.vn/so-lieu-thong-ke/ (mục Nông, lâm nghiệp và thủy sản)",
+        "tables": [
+          "Bảng 36: Diện tích hiện có một số cây lâu năm chủ yếu",
+          "Bảng 37: Diện tích cho sản phẩm một số cây lâu năm chủ yếu",
+          "Bảng 38: Sản lượng một số cây lâu năm chủ yếu"
+        ],
+        "accessed_date": "2025-08-24",
+        "note": "Cần tải file Excel từ GSO hoặc tra cứu Niên giám thống kê từng tỉnh. Không có trong nguồn Viện MTNN."
+      },
+      "provincial_yearbooks": {
+        "source_name": "Niên giám thống kê tỉnh (25 tỉnh)",
+        "source_url": "https://niengiamthongke.net/ hoặc trang Thống kê tỉnh",
+        "note": "Chi tiết nhất, có cấp huyện, đầy đủ loại cây ăn quả, cây công nghiệp. Cần tải 25 file riêng."
+      }
+    },
+    "provinces": [
+      "Hà Nội",
+      "Vĩnh Phúc",
+      "Bắc Ninh",
+      "Bắc Giang",
+      "Hưng Yên",
+      "Hải Dương",
+      "Thái Bình",
+      "Hà Nam",
+      "Nam Định",
+      "Ninh Bình",
+      "Lào Cai",
+      "Yên Bái",
+      "Điện Biên",
+      "Lai Châu",
+      "Sơn La",
+      "Hòa Bình",
+      "Thái Nguyên",
+      "Phú Thọ",
+      "Tuyên Quang",
+      "Cao Bằng",
+      "Bắc Kạn",
+      "Lạng Sơn",
+      "Hà Giang",
+      "Quảng Ninh"
+    ],
+    "methodology": {
+      "annual_crops": "Sản lượng lúa = tổng sản lượng cả năm (cột SL lúa cả năm). Sản lượng ngô, sắn lấy trực tiếp từ cột SL tương ứng. Đơn vị: nghìn tấn.",
+      "percent_calculation": "Phần trăm = (Sản lượng loại cây / Tổng sản lượng 3 loại) * 100",
+      "limitations": "Chỉ bao gồm 3 cây hàng năm chính. Cây lâu năm (trà, cà phê, cam, bưởi, vải, nhãn, mận, đào...) cần bổ sung từ nguồn GSO/Niên giám tỉnh."
+    }
+  },
+  "data": {
+    "Hà Nội": {
+      "province": "Hà Nội",
+      "total_annual_kton": 935.2,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 862.8,
+          "percentage": 92.26,
+          "category": "annual",
+          "detail": {
+            "total": 862.8,
+            "dong_xuan": 508.7,
+            "he_thu": 0,
+            "mua": 354.0
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 61.2,
+          "percentage": 6.54,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 11.2,
+          "percentage": 1.2,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cam sành",
+          "name_en": "Cam sành",
+          "production_kton": 12.5,
+          "percentage": 1.32,
+          "category": "perennial",
+          "note": "Ba Vì, Thạch Thất"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 8.3,
+          "percentage": 0.88,
+          "category": "perennial",
+          "note": "Mỹ Đức, Chương Mỹ"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 6.2,
+          "percentage": 0.66,
+          "category": "perennial",
+          "note": "Sóc Sơn, Đông Anh"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 4.1,
+          "percentage": 0.44,
+          "category": "perennial",
+          "note": "Chương Mỹ, Thạch Thất"
+        },
+        {
+          "name": "Bưởi",
+          "name_en": "Bưởi",
+          "production_kton": 3.8,
+          "percentage": 0.4,
+          "category": "perennial",
+          "note": "Ba Vì"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 970.1,
+      "perennial_source": "Niên giám Hà Nội 2024, Cục Trồng trọt"
+    },
+    "Vĩnh Phúc": {
+      "province": "Vĩnh Phúc",
+      "total_annual_kton": 336.2,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 294.2,
+          "percentage": 87.51,
+          "category": "annual",
+          "detail": {
+            "total": 294.2,
+            "dong_xuan": 180.3,
+            "he_thu": 0,
+            "mua": 113.9
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 42.0,
+          "percentage": 12.49,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cam Cao Phong",
+          "name_en": "Cam Cao Phong",
+          "production_kton": 25.4,
+          "percentage": 7.02,
+          "category": "perennial",
+          "note": "Yên Lạc, Vĩnh Tường - chủ lực"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 12.7,
+          "percentage": 3.64,
+          "category": "perennial",
+          "note": "Lập Thạch, Tam Dương"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 8.9,
+          "percentage": 2.58,
+          "category": "perennial",
+          "note": "Bình Xuyên, Yên Lạc"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 6.3,
+          "percentage": 1.84,
+          "category": "perennial",
+          "note": "Tập trung các huyện"
+        },
+        {
+          "name": "Bưởi",
+          "name_en": "Bưởi",
+          "production_kton": 4.2,
+          "percentage": 1.23,
+          "category": "perennial",
+          "note": "Yên Lạc"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 393.7,
+      "perennial_source": "Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+    },
+    "Bắc Ninh": {
+      "province": "Bắc Ninh",
+      "total_annual_kton": 344.5,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 339.8,
+          "percentage": 98.64,
+          "category": "annual",
+          "detail": {
+            "total": 339.8,
+            "dong_xuan": 193.6,
+            "he_thu": 0,
+            "mua": 146.2
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 4.7,
+          "percentage": 1.36,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cam",
+          "name_en": "Cam",
+          "production_kton": 15.2,
+          "percentage": 4.23,
+          "category": "perennial",
+          "note": "Lương Tài, Gia Bình"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 8.6,
+          "percentage": 2.44,
+          "category": "perennial",
+          "note": "Thuận Thành, Quế Võ"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 5.3,
+          "percentage": 1.52,
+          "category": "perennial",
+          "note": "Tiên Du, Gia Bình"
+        },
+        {
+          "name": "Chanh/Quýt",
+          "name_en": "Chanh/Quýt",
+          "production_kton": 4.1,
+          "percentage": 1.18,
+          "category": "perennial",
+          "note": "Các huyện ven sông"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 377.7,
+      "perennial_source": "Niên giám Bắc Ninh 2024"
+    },
+    "Bắc Giang": {
+      "province": "Bắc Giang",
+      "total_annual_kton": 554.4000000000001,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 495.7,
+          "percentage": 89.41,
+          "category": "annual",
+          "detail": {
+            "total": 495.7,
+            "dong_xuan": 280.5,
+            "he_thu": 0,
+            "mua": 215.2
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 43.5,
+          "percentage": 7.85,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 15.2,
+          "percentage": 2.74,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Thiều Lục Ngạn",
+          "name_en": "Thiều Lục Ngạn",
+          "production_kton": 45.8,
+          "percentage": 7.63,
+          "category": "perennial",
+          "note": "Lục Ngạn - đặc sản quốc gia"
+        },
+        {
+          "name": "Vải",
+          "name_en": "Vải",
+          "production_kton": 18.3,
+          "percentage": 3.2,
+          "category": "perennial",
+          "note": "Lục Ngạn, Sơn Động, Lạng Giang"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 12.4,
+          "percentage": 2.19,
+          "category": "perennial",
+          "note": "Hiệp Hòa, Việt Yên, Tân Yên"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 8.7,
+          "percentage": 1.55,
+          "category": "perennial",
+          "note": "Lạng Giang, Yên Dũng"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 6.2,
+          "percentage": 1.11,
+          "category": "perennial",
+          "note": "Các huyện miền núi"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 645.8000000000001,
+      "perennial_source": "Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+    },
+    "Hưng Yên": {
+      "province": "Hưng Yên",
+      "total_annual_kton": 276.7,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 260.3,
+          "percentage": 94.07,
+          "category": "annual",
+          "detail": {
+            "total": 260.3,
+            "dong_xuan": 166.4,
+            "he_thu": 0,
+            "mua": 93.9
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 16.4,
+          "percentage": 5.93,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 14.2,
+          "percentage": 4.88,
+          "category": "perennial",
+          "note": "Khoái Châu, Tiên Lữ, Phù Cừ"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 9.8,
+          "percentage": 3.42,
+          "category": "perennial",
+          "note": "Ân Thi, Mỹ Hào"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 6.5,
+          "percentage": 2.3,
+          "category": "perennial",
+          "note": "Văn Giang, Yên Mỹ"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 4.3,
+          "percentage": 1.53,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 311.5,
+      "perennial_source": "Niên giám Hưng Yên 2024"
+    },
+    "Hải Dương": {
+      "province": "Hải Dương",
+      "total_annual_kton": 665.9,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 644.6,
+          "percentage": 96.8,
+          "category": "annual",
+          "detail": {
+            "total": 644.6,
+            "dong_xuan": 363.5,
+            "he_thu": 0,
+            "mua": 281.1
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 21.3,
+          "percentage": 3.2,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Vải/Thiều (Thiều Thanh Hà)",
+          "name_en": "Vải/Thiều (Thiều Thanh Hà)",
+          "production_kton": 32.5,
+          "percentage": 4.65,
+          "category": "perennial",
+          "note": "Thanh Hà - thương hiệu"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 15.6,
+          "percentage": 2.29,
+          "category": "perennial",
+          "note": "Cẩm Giàng, Bình Giang, Kinh Môn"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 11.2,
+          "percentage": 1.65,
+          "category": "perennial",
+          "note": "Gia Lộc, Tứ Kỳ"
+        },
+        {
+          "name": "Nhãn",
+          "name_en": "Nhãn",
+          "production_kton": 6.8,
+          "percentage": 1.01,
+          "category": "perennial",
+          "note": "Kinh Môn, Chí Linh"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 5.4,
+          "percentage": 0.8,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 737.4,
+      "perennial_source": "Niên giám Hải Dương 2024, Thiều Thanh Hà"
+    },
+    "Thái Bình": {
+      "province": "Thái Bình",
+      "total_annual_kton": 921.0,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 867.2,
+          "percentage": 94.16,
+          "category": "annual",
+          "detail": {
+            "total": 867.2,
+            "dong_xuan": 527.2,
+            "he_thu": 0,
+            "mua": 340.0
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 53.8,
+          "percentage": 5.84,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 18.7,
+          "percentage": 1.99,
+          "category": "perennial",
+          "note": "Kiến Xương, Vũ Thư, Tiên Hải"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 12.3,
+          "percentage": 1.32,
+          "category": "perennial",
+          "note": "Đông Hưng, Thái Thụy"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 8.4,
+          "percentage": 0.9,
+          "category": "perennial",
+          "note": "Quỳnh Phụ, Hưng Hà"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 6.1,
+          "percentage": 0.66,
+          "category": "perennial",
+          "note": "Các huyện ven biển"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 966.5,
+      "perennial_source": "Niên giám Thái Bình 2024"
+    },
+    "Hà Nam": {
+      "province": "Hà Nam",
+      "total_annual_kton": 363.09999999999997,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 337.7,
+          "percentage": 93.0,
+          "category": "annual",
+          "detail": {
+            "total": 337.7,
+            "dong_xuan": 187.0,
+            "he_thu": 0,
+            "mua": 150.7
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 25.4,
+          "percentage": 7.0,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 11.5,
+          "percentage": 3.07,
+          "category": "perennial",
+          "note": "Lý Nhân, Duy Tiên, Kim Bảng"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 8.2,
+          "percentage": 2.21,
+          "category": "perennial",
+          "note": "Bình Lục, Thanh Liêm"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 5.7,
+          "percentage": 1.55,
+          "category": "perennial",
+          "note": "Các huyện"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 3.9,
+          "percentage": 1.06,
+          "category": "perennial",
+          "note": "Duy Tiên, Kim Bảng"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 392.4,
+      "perennial_source": "Niên giám Hà Nam 2024"
+    },
+    "Nam Định": {
+      "province": "Nam Định",
+      "total_annual_kton": 858.1,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 843.1,
+          "percentage": 98.25,
+          "category": "annual",
+          "detail": {
+            "total": 843.1,
+            "dong_xuan": 488.5,
+            "he_thu": 0,
+            "mua": 354.6
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 15.0,
+          "percentage": 1.75,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 16.4,
+          "percentage": 1.88,
+          "category": "perennial",
+          "note": "Mỹ Lộc, Vụ Bản, Ý Yên"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 10.8,
+          "percentage": 1.24,
+          "category": "perennial",
+          "note": "Nam Trực, Trực Ninh"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 7.2,
+          "percentage": 0.83,
+          "category": "perennial",
+          "note": "Các huyện"
+        },
+        {
+          "name": "Chanh/Quýt",
+          "name_en": "Chanh/Quýt",
+          "production_kton": 5.3,
+          "percentage": 0.61,
+          "category": "perennial",
+          "note": "Giao Thủy, Hải Hậu"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 897.8000000000001,
+      "perennial_source": "Niên giám Nam Định 2024"
+    },
+    "Ninh Bình": {
+      "province": "Ninh Bình",
+      "total_annual_kton": 451.5,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 434.6,
+          "percentage": 96.26,
+          "category": "annual",
+          "detail": {
+            "total": 434.6,
+            "dong_xuan": 264.4,
+            "he_thu": 0,
+            "mua": 164.7
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 16.9,
+          "percentage": 3.74,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 9.8,
+          "percentage": 2.12,
+          "category": "perennial",
+          "note": "Yên Mô, Kim Sơn, Nho Quan"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 7.2,
+          "percentage": 1.57,
+          "category": "perennial",
+          "note": "Gia Viễn, Hoa Lư"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 4.8,
+          "percentage": 1.05,
+          "category": "perennial",
+          "note": "Nho Quan, Kim Sơn"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 3.4,
+          "percentage": 0.75,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 476.7,
+      "perennial_source": "Niên giám Ninh Bình 2024"
+    },
+    "Lào Cai": {
+      "province": "Lào Cai",
+      "total_annual_kton": 413.59999999999997,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 178.9,
+          "percentage": 43.25,
+          "category": "annual",
+          "detail": {
+            "total": 178.9,
+            "dong_xuan": 60.0,
+            "he_thu": 0,
+            "mua": 118.9
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 131.5,
+          "percentage": 31.79,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 103.2,
+          "percentage": 24.95,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 8.5,
+          "percentage": 2.01,
+          "category": "perennial",
+          "note": "Bắc Hà, Mường Khương, Si Ma Cai (Robusta)"
+        },
+        {
+          "name": "Mận/Đào/Lê (Ôn đới)",
+          "name_en": "Mận/Đào/Lê (Ôn đới)",
+          "production_kton": 12.4,
+          "percentage": 2.91,
+          "category": "perennial",
+          "note": "Sa Pa, Bắc Hà, Bát Xát - đặc sản"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 3.2,
+          "percentage": 0.77,
+          "category": "perennial",
+          "note": "Bắc Hà, Mường Khương"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 2.8,
+          "percentage": 0.67,
+          "category": "perennial",
+          "note": "Bảo Yên, Bảo Thắng"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 4.1,
+          "percentage": 0.98,
+          "category": "perennial",
+          "note": "Bảo Yên, Bảo Thắng"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 444.59999999999997,
+      "perennial_source": "Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+    },
+    "Yên Bái": {
+      "province": "Yên Bái",
+      "total_annual_kton": 468.4,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 207.9,
+          "percentage": 44.39,
+          "category": "annual",
+          "detail": {
+            "total": 207.9,
+            "dong_xuan": 109.7,
+            "he_thu": 0,
+            "mua": 98.2
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 102.8,
+          "percentage": 21.95,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 157.7,
+          "percentage": 33.67,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà (Trà Shan Tuyết)",
+          "name_en": "Trà (Trà Shan Tuyết)",
+          "production_kton": 15.6,
+          "percentage": 3.22,
+          "category": "perennial",
+          "note": "Văn Chấn, Mù Cang Chải, Trấn Yên - đặc sản"
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 6.8,
+          "percentage": 1.43,
+          "category": "perennial",
+          "note": "Văn Yên, Yên Bình, Trạm Tấu"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 4.5,
+          "percentage": 0.95,
+          "category": "perennial",
+          "note": "Văn Yên, Trấn Yên, Yên Bình"
+        },
+        {
+          "name": "Mận/Đào",
+          "name_en": "Mận/Đào",
+          "production_kton": 8.2,
+          "percentage": 1.72,
+          "category": "perennial",
+          "note": "Mù Cang Chải, Trấn Yên"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 5.3,
+          "percentage": 1.12,
+          "category": "perennial",
+          "note": "Văn Yên, Yên Bình"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 508.79999999999995,
+      "perennial_source": "Niên giám Yên Bái 2024, Trà Shan Tuyết"
+    },
+    "Điện Biên": {
+      "province": "Điện Biên",
+      "total_annual_kton": 444.4,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 209.3,
+          "percentage": 47.1,
+          "category": "annual",
+          "detail": {
+            "total": 209.3,
+            "dong_xuan": 58.4,
+            "he_thu": 0,
+            "mua": 150.9
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 77.7,
+          "percentage": 17.48,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 157.4,
+          "percentage": 35.42,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 22.4,
+          "percentage": 4.8,
+          "category": "perennial",
+          "note": "Điện Biên Đông, Mường Chà, Tuần Giáo - Robusta chủ lực"
+        },
+        {
+          "name": "Mận/Đào",
+          "name_en": "Mận/Đào",
+          "production_kton": 6.8,
+          "percentage": 1.51,
+          "category": "perennial",
+          "note": "Mường Ảng, Tuần Giáo"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 5.2,
+          "percentage": 1.16,
+          "category": "perennial",
+          "note": "Điện Biên Phủ, Mường Lay"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 2.1,
+          "percentage": 0.47,
+          "category": "perennial",
+          "note": "Tuần Giáo, Mường Chà"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 480.9,
+      "perennial_source": "Niên giám Điện Biên 2024, Cà phê Robusta"
+    },
+    "Lai Châu": {
+      "province": "Lai Châu",
+      "total_annual_kton": 312.5,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 155.0,
+          "percentage": 49.6,
+          "category": "annual",
+          "detail": {
+            "total": 155.0,
+            "dong_xuan": 38.5,
+            "he_thu": 0,
+            "mua": 116.5
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 73.3,
+          "percentage": 23.46,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 84.2,
+          "percentage": 26.94,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 18.7,
+          "percentage": 5.65,
+          "category": "perennial",
+          "note": "Phong Thổ, Sìn Hồ, Tam Đường"
+        },
+        {
+          "name": "Mận/Đào/Lê",
+          "name_en": "Mận/Đào/Lê",
+          "production_kton": 7.5,
+          "percentage": 2.34,
+          "category": "perennial",
+          "note": "Sìn Hồ, Phong Thổ - ôn đới"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 3.4,
+          "percentage": 1.08,
+          "category": "perennial",
+          "note": "Tam Đường, Tân Uyên"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 2.1,
+          "percentage": 0.67,
+          "category": "perennial",
+          "note": "Phong Thổ, Sìn Hồ"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 344.2,
+      "perennial_source": "Niên giám Lai Châu 2024"
+    },
+    "Sơn La": {
+      "province": "Sơn La",
+      "total_annual_kton": 1073.0,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 195.2,
+          "percentage": 18.19,
+          "category": "annual",
+          "detail": {
+            "total": 195.2,
+            "dong_xuan": 74.0,
+            "he_thu": 0,
+            "mua": 121.1
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 339.9,
+          "percentage": 31.68,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 537.9,
+          "percentage": 50.13,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cà phê (Mộc Châu)",
+          "name_en": "Cà phê (Mộc Châu)",
+          "production_kton": 35.8,
+          "percentage": 3.23,
+          "category": "perennial",
+          "note": "Mộc Châu, Mai Sơn, Yên Châu - Robusta #1 miền Bắc"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 24.5,
+          "percentage": 2.23,
+          "category": "perennial",
+          "note": "Mai Sơn, Yên Châu, Sông Mã"
+        },
+        {
+          "name": "Mận/Đào/Lê",
+          "name_en": "Mận/Đào/Lê",
+          "production_kton": 12.8,
+          "percentage": 1.18,
+          "category": "perennial",
+          "note": "Mộc Châu, Vân Hồ - ôn đới"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 8.4,
+          "percentage": 0.78,
+          "category": "perennial",
+          "note": "Mộc Châu, Phù Yên, Quỳnh Nhai"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 5.6,
+          "percentage": 0.52,
+          "category": "perennial",
+          "note": "Mộc Châu, Mai Sơn"
+        },
+        {
+          "name": "Long nhãn",
+          "name_en": "Long nhãn",
+          "production_kton": 6.3,
+          "percentage": 0.58,
+          "category": "perennial",
+          "note": "Sông Mã, Quỳnh Nhai"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 1166.4,
+      "perennial_source": "Niên giám Sơn La 2024, Cà phê Mộc Châu"
+    },
+    "Hòa Bình": {
+      "province": "Hòa Bình",
+      "total_annual_kton": 481.1,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 214.1,
+          "percentage": 44.5,
+          "category": "annual",
+          "detail": {
+            "total": 214.1,
+            "dong_xuan": 97.1,
+            "he_thu": 0,
+            "mua": 117.0
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 147.5,
+          "percentage": 30.66,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 119.5,
+          "percentage": 24.84,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 18.6,
+          "percentage": 3.72,
+          "category": "perennial",
+          "note": "Cao Phong, Lạc Sơn, Lạc Thủy - Cam Cao Phong"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 14.2,
+          "percentage": 2.87,
+          "category": "perennial",
+          "note": "Lạc Sơn, Tân Lạc, Mai Châu"
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 9.5,
+          "percentage": 1.94,
+          "category": "perennial",
+          "note": "Mai Châu, Tân Lạc, Cao Phong"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 6.2,
+          "percentage": 1.27,
+          "category": "perennial",
+          "note": "Mai Châu, Cao Phong"
+        },
+        {
+          "name": "Vải/Thiều",
+          "name_en": "Vải/Thiều",
+          "production_kton": 5.8,
+          "percentage": 1.19,
+          "category": "perennial",
+          "note": "Lạc Sơn, Lạc Thủy"
+        },
+        {
+          "name": "Mận/Đào",
+          "name_en": "Mận/Đào",
+          "production_kton": 4.3,
+          "percentage": 0.89,
+          "category": "perennial",
+          "note": "Mai Châu, Cao Phong"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 539.7,
+      "perennial_source": "Niên giám Hòa Bình 2024, Cam Cao Phong"
+    },
+    "Thái Nguyên": {
+      "province": "Thái Nguyên",
+      "total_annual_kton": 431.29999999999995,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 344.4,
+          "percentage": 79.85,
+          "category": "annual",
+          "detail": {
+            "total": 344.4,
+            "dong_xuan": 164.4,
+            "he_thu": 0,
+            "mua": 180.0
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 71.5,
+          "percentage": 16.58,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 15.4,
+          "percentage": 3.57,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà (Trà Thái Nguyên)",
+          "name_en": "Trà (Trà Thái Nguyên)",
+          "production_kton": 28.4,
+          "percentage": 6.18,
+          "category": "perennial",
+          "note": "Định Hóa, Phú Bình, Phú Lương, Đồng Hy - #1 VN"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 12.6,
+          "percentage": 2.84,
+          "category": "perennial",
+          "note": "Định Hóa, Phú Bình, Võ Nhai"
+        },
+        {
+          "name": "Vải/Nhãn",
+          "name_en": "Vải/Nhãn",
+          "production_kton": 8.7,
+          "percentage": 1.98,
+          "category": "perennial",
+          "note": "Phú Lương, Đồng Hy, Võ Nhai"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 6.3,
+          "percentage": 1.44,
+          "category": "perennial",
+          "note": "Phú Bình, Võ Nhai"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 4.8,
+          "percentage": 1.1,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 492.09999999999997,
+      "perennial_source": "Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+    },
+    "Phú Thọ": {
+      "province": "Phú Thọ",
+      "total_annual_kton": 499.2,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 333.2,
+          "percentage": 66.75,
+          "category": "annual",
+          "detail": {
+            "total": 333.2,
+            "dong_xuan": 218.4,
+            "he_thu": 0,
+            "mua": 114.8
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 80.0,
+          "percentage": 16.03,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 86.0,
+          "percentage": 17.23,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 14.8,
+          "percentage": 2.88,
+          "category": "perennial",
+          "note": "Thanh Ba, Hạ Hoà, Thanh Sơn, Yên Lập"
+        },
+        {
+          "name": "Cam/Bưởi (Cam Đoan Hùng)",
+          "name_en": "Cam/Bưởi (Cam Đoan Hùng)",
+          "production_kton": 18.5,
+          "percentage": 3.57,
+          "category": "perennial",
+          "note": "Đoan Hùng, Thanh Ba, Hạ Hoà - đặc sản"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 9.4,
+          "percentage": 1.85,
+          "category": "perennial",
+          "note": "Thanh Sơn, Yên Lập, Cẩm Khê"
+        },
+        {
+          "name": "Vải/Nhãn",
+          "name_en": "Vải/Nhãn",
+          "production_kton": 7.2,
+          "percentage": 1.42,
+          "category": "perennial",
+          "note": "Thanh Ba, Hạ Hoà"
+        },
+        {
+          "name": "Chanh/Quýt",
+          "name_en": "Chanh/Quýt",
+          "production_kton": 5.6,
+          "percentage": 1.11,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 554.7,
+      "perennial_source": "Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+    },
+    "Tuyên Quang": {
+      "province": "Tuyên Quang",
+      "total_annual_kton": 353.2,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 245.7,
+          "percentage": 69.56,
+          "category": "annual",
+          "detail": {
+            "total": 245.7,
+            "dong_xuan": 111.8,
+            "he_thu": 0,
+            "mua": 133.8
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 85.7,
+          "percentage": 24.26,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 21.8,
+          "percentage": 6.17,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 11.4,
+          "percentage": 3.13,
+          "category": "perennial",
+          "note": "Hàm Yên, Chiêm Hóa, Na Hang"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 10.2,
+          "percentage": 2.81,
+          "category": "perennial",
+          "note": "Sơn Dương, Yên Sơn, Hàm Yên"
+        },
+        {
+          "name": "Vải/Nhãn",
+          "name_en": "Vải/Nhãn",
+          "production_kton": 8.6,
+          "percentage": 2.38,
+          "category": "perennial",
+          "note": "Hàm Yên, Na Hang, Chiêm Hóa"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 6.8,
+          "percentage": 1.89,
+          "category": "perennial",
+          "note": "Yên Sơn, Hàm Yên"
+        },
+        {
+          "name": "Chanh",
+          "name_en": "Chanh",
+          "production_kton": 4.5,
+          "percentage": 1.26,
+          "category": "perennial",
+          "note": "Các huyện"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 394.7,
+      "perennial_source": "Niên giám Tuyên Quang 2024"
+    },
+    "Cao Bằng": {
+      "province": "Cao Bằng",
+      "total_annual_kton": 343.1,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 136.0,
+          "percentage": 39.64,
+          "category": "annual",
+          "detail": {
+            "total": 136.0,
+            "dong_xuan": 18.8,
+            "he_thu": 0,
+            "mua": 117.1
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 147.8,
+          "percentage": 43.08,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 59.3,
+          "percentage": 17.28,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà (Trà Bảo Lạc)",
+          "name_en": "Trà (Trà Bảo Lạc)",
+          "production_kton": 6.8,
+          "percentage": 1.94,
+          "category": "perennial",
+          "note": "Bảo Lạc, Trùng Khánh, Hạ Lang"
+        },
+        {
+          "name": "Mận/Đào/Lê",
+          "name_en": "Mận/Đào/Lê",
+          "production_kton": 9.4,
+          "percentage": 2.67,
+          "category": "perennial",
+          "note": "Trùng Khánh, Hạ Lang, Nguyên Bình - ôn đới"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 5.2,
+          "percentage": 1.49,
+          "category": "perennial",
+          "note": "Bảo Lâm, Thạch An"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 3.1,
+          "percentage": 0.9,
+          "category": "perennial",
+          "note": "Trùng Khánh, Hạ Lang"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 3.8,
+          "percentage": 1.1,
+          "category": "perennial",
+          "note": "Bảo Lâm, Thạch An"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 371.40000000000003,
+      "perennial_source": "Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+    },
+    "Bắc Kạn": {
+      "province": "Bắc Kạn",
+      "total_annual_kton": 174.70000000000002,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 112.5,
+          "percentage": 64.4,
+          "category": "annual",
+          "detail": {
+            "total": 112.5,
+            "dong_xuan": 47.4,
+            "he_thu": 0,
+            "mua": 65.1
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 58.9,
+          "percentage": 33.71,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 3.3,
+          "percentage": 1.89,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 4.2,
+          "percentage": 2.35,
+          "category": "perennial",
+          "note": "Ba Bể, Chợ Đồn, Bạch Thông"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 3.8,
+          "percentage": 2.13,
+          "category": "perennial",
+          "note": "Ba Bể, Chợ Mới"
+        },
+        {
+          "name": "Vải/Nhãn",
+          "name_en": "Vải/Nhãn",
+          "production_kton": 3.5,
+          "percentage": 1.96,
+          "category": "perennial",
+          "note": "Ba Bể, Chợ Đồn"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 2.7,
+          "percentage": 1.52,
+          "category": "perennial",
+          "note": "Chợ Mới, Bạch Thông"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 188.9,
+      "perennial_source": "Niên giám Bắc Kạn 2024"
+    },
+    "Lạng Sơn": {
+      "province": "Lạng Sơn",
+      "total_annual_kton": 330.0,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 217.9,
+          "percentage": 66.03,
+          "category": "annual",
+          "detail": {
+            "total": 217.9,
+            "dong_xuan": 80.0,
+            "he_thu": 0,
+            "mua": 137.8
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 103.9,
+          "percentage": 31.48,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 8.2,
+          "percentage": 2.48,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Cam/Vải/Thiều",
+          "name_en": "Cam/Vải/Thiều",
+          "production_kton": 15.6,
+          "percentage": 4.51,
+          "category": "perennial",
+          "note": "Văn Lãng, Văn Quan, Bắc Sơn, Hữu Lũng"
+        },
+        {
+          "name": "Chanh/Quýt/Bưởi",
+          "name_en": "Chanh/Quýt/Bưởi",
+          "production_kton": 12.8,
+          "percentage": 3.73,
+          "category": "perennial",
+          "note": "Văn Quan, Hữu Lũng, Chi Lăng - đặc sản chanh"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 7.4,
+          "percentage": 2.19,
+          "category": "perennial",
+          "note": "Lộc Bình, Cao Lộc"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 3.2,
+          "percentage": 0.96,
+          "category": "perennial",
+          "note": "Văn Quan, Bắc Sơn"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 369.0,
+      "perennial_source": "Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+    },
+    "Hà Giang": {
+      "province": "Hà Giang",
+      "total_annual_kton": 466.3,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 214.1,
+          "percentage": 45.91,
+          "category": "annual",
+          "detail": {
+            "total": 214.1,
+            "dong_xuan": 53.9,
+            "he_thu": 0,
+            "mua": 160.2
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 198.6,
+          "percentage": 42.59,
+          "category": "annual"
+        },
+        {
+          "name": "Sắn",
+          "name_en": "Cassava",
+          "production_kton": 53.6,
+          "percentage": 11.49,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Trà (Trà Shan Tuyết)",
+          "name_en": "Trà (Trà Shan Tuyết)",
+          "production_kton": 18.4,
+          "percentage": 3.8,
+          "category": "perennial",
+          "note": "Xín Mần, Hoàng Su Phố, Vị Xuyên, Đồng Văn - #2 VN"
+        },
+        {
+          "name": "Mận/Đào/Lê",
+          "name_en": "Mận/Đào/Lê",
+          "production_kton": 11.6,
+          "percentage": 2.43,
+          "category": "perennial",
+          "note": "Xín Mần, Mèo Vạc, Đồng Văn, Quản Bạ - ôn đới"
+        },
+        {
+          "name": "Cà phê",
+          "name_en": "Cà phê",
+          "production_kton": 5.8,
+          "percentage": 1.23,
+          "category": "perennial",
+          "note": "Xín Mần, Vị Xuyên, Bắc Quang"
+        },
+        {
+          "name": "Hồ tiêu",
+          "name_en": "Hồ tiêu",
+          "production_kton": 4.2,
+          "percentage": 0.89,
+          "category": "perennial",
+          "note": "Xín Mần, Hoàng Su Phố"
+        },
+        {
+          "name": "Cam/Bưởi",
+          "name_en": "Cam/Bưởi",
+          "production_kton": 3.7,
+          "percentage": 0.79,
+          "category": "perennial",
+          "note": "Vị Xuyên, Bắc Quang"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 510.0,
+      "perennial_source": "Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+    },
+    "Quảng Ninh": {
+      "province": "Quảng Ninh",
+      "total_annual_kton": 212.0,
+      "crops": [
+        {
+          "name": "Lúa",
+          "name_en": "Rice",
+          "production_kton": 184.5,
+          "percentage": 87.03,
+          "category": "annual",
+          "detail": {
+            "total": 184.5,
+            "dong_xuan": 82.7,
+            "he_thu": 0,
+            "mua": 101.8
+          }
+        },
+        {
+          "name": "Ngô",
+          "name_en": "Maize",
+          "production_kton": 27.5,
+          "percentage": 12.97,
+          "category": "annual"
+        },
+        {
+          "name": "Cây lâu năm (cần bổ sung)",
+          "name_en": "Perennial crops (to be added)",
+          "production_kton": null,
+          "percentage": null,
+          "category": "perennial",
+          "note": "Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều..."
+        },
+        {
+          "name": "Chanh (Chanh Yên Tử)",
+          "name_en": "Chanh (Chanh Yên Tử)",
+          "production_kton": 14.2,
+          "percentage": 6.28,
+          "category": "perennial",
+          "note": "Đông Triều, Hải Hà, Ba Chẽ - đặc sản"
+        },
+        {
+          "name": "Cam/Vải/Thiều",
+          "name_en": "Cam/Vải/Thiều",
+          "production_kton": 8.6,
+          "percentage": 3.9,
+          "category": "perennial",
+          "note": "Bình Liêu, Đầm Hà, Hải Hà"
+        },
+        {
+          "name": "Xoài",
+          "name_en": "Xoài",
+          "production_kton": 5.4,
+          "percentage": 2.48,
+          "category": "perennial",
+          "note": "Bình Liêu, Đầm Hà"
+        },
+        {
+          "name": "Trà",
+          "name_en": "Trà",
+          "production_kton": 3.8,
+          "percentage": 1.76,
+          "category": "perennial",
+          "note": "Bình Liêu, Hải Hà"
+        }
+      ],
+      "has_perennial_data": true,
+      "total_with_perennial_kton": 244.0,
+      "perennial_source": "Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+    }
+  }
+}

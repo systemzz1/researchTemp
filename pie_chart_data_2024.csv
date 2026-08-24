@@ -1,0 +1,199 @@
+province,crop_name,crop_name_en,category,production_kton,percentage,note,source
+Hà Nội,Lúa,Rice,annual,862.8,92.26,,"Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Ngô,Maize,annual,61.2,6.54,,"Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Sắn,Cassava,annual,11.2,1.2,,"Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Cam sành,Cam sành,perennial,12.5,1.32,"Ba Vì, Thạch Thất","Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Xoài,Xoài,perennial,8.3,0.88,"Mỹ Đức, Chương Mỹ","Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Vải/Thiều,Vải/Thiều,perennial,6.2,0.66,"Sóc Sơn, Đông Anh","Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Chanh,Chanh,perennial,4.1,0.44,"Chương Mỹ, Thạch Thất","Niên giám Hà Nội 2024, Cục Trồng trọt"
+Hà Nội,Bưởi,Bưởi,perennial,3.8,0.4,Ba Vì,"Niên giám Hà Nội 2024, Cục Trồng trọt"
+Vĩnh Phúc,Lúa,Rice,annual,294.2,87.51,,"Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Ngô,Maize,annual,42.0,12.49,,"Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Cam Cao Phong,Cam Cao Phong,perennial,25.4,7.02,"Yên Lạc, Vĩnh Tường - chủ lực","Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Xoài,Xoài,perennial,12.7,3.64,"Lập Thạch, Tam Dương","Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Vải/Thiều,Vải/Thiều,perennial,8.9,2.58,"Bình Xuyên, Yên Lạc","Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Chanh,Chanh,perennial,6.3,1.84,Tập trung các huyện,"Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Vĩnh Phúc,Bưởi,Bưởi,perennial,4.2,1.23,Yên Lạc,"Niên giám Vĩnh Phúc 2024, Sở NN&PTNT"
+Bắc Ninh,Lúa,Rice,annual,339.8,98.64,,Niên giám Bắc Ninh 2024
+Bắc Ninh,Ngô,Maize,annual,4.7,1.36,,Niên giám Bắc Ninh 2024
+Bắc Ninh,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Bắc Ninh 2024
+Bắc Ninh,Cam,Cam,perennial,15.2,4.23,"Lương Tài, Gia Bình",Niên giám Bắc Ninh 2024
+Bắc Ninh,Xoài,Xoài,perennial,8.6,2.44,"Thuận Thành, Quế Võ",Niên giám Bắc Ninh 2024
+Bắc Ninh,Vải/Thiều,Vải/Thiều,perennial,5.3,1.52,"Tiên Du, Gia Bình",Niên giám Bắc Ninh 2024
+Bắc Ninh,Chanh/Quýt,Chanh/Quýt,perennial,4.1,1.18,Các huyện ven sông,Niên giám Bắc Ninh 2024
+Bắc Giang,Lúa,Rice,annual,495.7,89.41,,"Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Ngô,Maize,annual,43.5,7.85,,"Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Sắn,Cassava,annual,15.2,2.74,,"Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Thiều Lục Ngạn,Thiều Lục Ngạn,perennial,45.8,7.63,Lục Ngạn - đặc sản quốc gia,"Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Vải,Vải,perennial,18.3,3.2,"Lục Ngạn, Sơn Động, Lạng Giang","Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Cam/Bưởi,Cam/Bưởi,perennial,12.4,2.19,"Hiệp Hòa, Việt Yên, Tân Yên","Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Xoài,Xoài,perennial,8.7,1.55,"Lạng Giang, Yên Dũng","Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Bắc Giang,Chanh,Chanh,perennial,6.2,1.11,Các huyện miền núi,"Niên giám Bắc Giang 2024, Cục Trồng trọt (Thiều Lục Ngạn)"
+Hưng Yên,Lúa,Rice,annual,260.3,94.07,,Niên giám Hưng Yên 2024
+Hưng Yên,Ngô,Maize,annual,16.4,5.93,,Niên giám Hưng Yên 2024
+Hưng Yên,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Hưng Yên 2024
+Hưng Yên,Xoài,Xoài,perennial,14.2,4.88,"Khoái Châu, Tiên Lữ, Phù Cừ",Niên giám Hưng Yên 2024
+Hưng Yên,Cam/Bưởi,Cam/Bưởi,perennial,9.8,3.42,"Ân Thi, Mỹ Hào",Niên giám Hưng Yên 2024
+Hưng Yên,Vải/Thiều,Vải/Thiều,perennial,6.5,2.3,"Văn Giang, Yên Mỹ",Niên giám Hưng Yên 2024
+Hưng Yên,Chanh,Chanh,perennial,4.3,1.53,Các huyện,Niên giám Hưng Yên 2024
+Hải Dương,Lúa,Rice,annual,644.6,96.8,,"Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Ngô,Maize,annual,21.3,3.2,,"Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Vải/Thiều (Thiều Thanh Hà),Vải/Thiều (Thiều Thanh Hà),perennial,32.5,4.65,Thanh Hà - thương hiệu,"Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Xoài,Xoài,perennial,15.6,2.29,"Cẩm Giàng, Bình Giang, Kinh Môn","Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Cam/Bưởi,Cam/Bưởi,perennial,11.2,1.65,"Gia Lộc, Tứ Kỳ","Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Nhãn,Nhãn,perennial,6.8,1.01,"Kinh Môn, Chí Linh","Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Hải Dương,Chanh,Chanh,perennial,5.4,0.8,Các huyện,"Niên giám Hải Dương 2024, Thiều Thanh Hà"
+Thái Bình,Lúa,Rice,annual,867.2,94.16,,Niên giám Thái Bình 2024
+Thái Bình,Ngô,Maize,annual,53.8,5.84,,Niên giám Thái Bình 2024
+Thái Bình,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Thái Bình 2024
+Thái Bình,Xoài,Xoài,perennial,18.7,1.99,"Kiến Xương, Vũ Thư, Tiên Hải",Niên giám Thái Bình 2024
+Thái Bình,Cam/Bưởi,Cam/Bưởi,perennial,12.3,1.32,"Đông Hưng, Thái Thụy",Niên giám Thái Bình 2024
+Thái Bình,Vải/Thiều,Vải/Thiều,perennial,8.4,0.9,"Quỳnh Phụ, Hưng Hà",Niên giám Thái Bình 2024
+Thái Bình,Chanh,Chanh,perennial,6.1,0.66,Các huyện ven biển,Niên giám Thái Bình 2024
+Hà Nam,Lúa,Rice,annual,337.7,93.0,,Niên giám Hà Nam 2024
+Hà Nam,Ngô,Maize,annual,25.4,7.0,,Niên giám Hà Nam 2024
+Hà Nam,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Hà Nam 2024
+Hà Nam,Xoài,Xoài,perennial,11.5,3.07,"Lý Nhân, Duy Tiên, Kim Bảng",Niên giám Hà Nam 2024
+Hà Nam,Cam/Bưởi,Cam/Bưởi,perennial,8.2,2.21,"Bình Lục, Thanh Liêm",Niên giám Hà Nam 2024
+Hà Nam,Vải/Thiều,Vải/Thiều,perennial,5.7,1.55,Các huyện,Niên giám Hà Nam 2024
+Hà Nam,Chanh,Chanh,perennial,3.9,1.06,"Duy Tiên, Kim Bảng",Niên giám Hà Nam 2024
+Nam Định,Lúa,Rice,annual,843.1,98.25,,Niên giám Nam Định 2024
+Nam Định,Ngô,Maize,annual,15.0,1.75,,Niên giám Nam Định 2024
+Nam Định,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Nam Định 2024
+Nam Định,Xoài,Xoài,perennial,16.4,1.88,"Mỹ Lộc, Vụ Bản, Ý Yên",Niên giám Nam Định 2024
+Nam Định,Cam/Bưởi,Cam/Bưởi,perennial,10.8,1.24,"Nam Trực, Trực Ninh",Niên giám Nam Định 2024
+Nam Định,Vải/Thiều,Vải/Thiều,perennial,7.2,0.83,Các huyện,Niên giám Nam Định 2024
+Nam Định,Chanh/Quýt,Chanh/Quýt,perennial,5.3,0.61,"Giao Thủy, Hải Hậu",Niên giám Nam Định 2024
+Ninh Bình,Lúa,Rice,annual,434.6,96.26,,Niên giám Ninh Bình 2024
+Ninh Bình,Ngô,Maize,annual,16.9,3.74,,Niên giám Ninh Bình 2024
+Ninh Bình,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Ninh Bình 2024
+Ninh Bình,Xoài,Xoài,perennial,9.8,2.12,"Yên Mô, Kim Sơn, Nho Quan",Niên giám Ninh Bình 2024
+Ninh Bình,Cam/Bưởi,Cam/Bưởi,perennial,7.2,1.57,"Gia Viễn, Hoa Lư",Niên giám Ninh Bình 2024
+Ninh Bình,Vải/Thiều,Vải/Thiều,perennial,4.8,1.05,"Nho Quan, Kim Sơn",Niên giám Ninh Bình 2024
+Ninh Bình,Chanh,Chanh,perennial,3.4,0.75,Các huyện,Niên giám Ninh Bình 2024
+Lào Cai,Lúa,Rice,annual,178.9,43.25,,"Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Ngô,Maize,annual,131.5,31.79,,"Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Sắn,Cassava,annual,103.2,24.95,,"Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Cà phê,Cà phê,perennial,8.5,2.01,"Bắc Hà, Mường Khương, Si Ma Cai (Robusta)","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Mận/Đào/Lê (Ôn đới),Mận/Đào/Lê (Ôn đới),perennial,12.4,2.91,"Sa Pa, Bắc Hà, Bát Xát - đặc sản","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Hồ tiêu,Hồ tiêu,perennial,3.2,0.77,"Bắc Hà, Mường Khương","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Trà,Trà,perennial,2.8,0.67,"Bảo Yên, Bảo Thắng","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Lào Cai,Xoài,Xoài,perennial,4.1,0.98,"Bảo Yên, Bảo Thắng","Niên giám Lào Cai 2024, Cục Trồng trọt (Mận/Đào ôn đới)"
+Yên Bái,Lúa,Rice,annual,207.9,44.39,,"Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Ngô,Maize,annual,102.8,21.95,,"Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Sắn,Cassava,annual,157.7,33.67,,"Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Trà (Trà Shan Tuyết),Trà (Trà Shan Tuyết),perennial,15.6,3.22,"Văn Chấn, Mù Cang Chải, Trấn Yên - đặc sản","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Cà phê,Cà phê,perennial,6.8,1.43,"Văn Yên, Yên Bình, Trạm Tấu","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Hồ tiêu,Hồ tiêu,perennial,4.5,0.95,"Văn Yên, Trấn Yên, Yên Bình","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Mận/Đào,Mận/Đào,perennial,8.2,1.72,"Mù Cang Chải, Trấn Yên","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Yên Bái,Xoài,Xoài,perennial,5.3,1.12,"Văn Yên, Yên Bình","Niên giám Yên Bái 2024, Trà Shan Tuyết"
+Điện Biên,Lúa,Rice,annual,209.3,47.1,,"Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Ngô,Maize,annual,77.7,17.48,,"Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Sắn,Cassava,annual,157.4,35.42,,"Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Cà phê,Cà phê,perennial,22.4,4.8,"Điện Biên Đông, Mường Chà, Tuần Giáo - Robusta chủ lực","Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Mận/Đào,Mận/Đào,perennial,6.8,1.51,"Mường Ảng, Tuần Giáo","Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Xoài,Xoài,perennial,5.2,1.16,"Điện Biên Phủ, Mường Lay","Niên giám Điện Biên 2024, Cà phê Robusta"
+Điện Biên,Trà,Trà,perennial,2.1,0.47,"Tuần Giáo, Mường Chà","Niên giám Điện Biên 2024, Cà phê Robusta"
+Lai Châu,Lúa,Rice,annual,155.0,49.6,,Niên giám Lai Châu 2024
+Lai Châu,Ngô,Maize,annual,73.3,23.46,,Niên giám Lai Châu 2024
+Lai Châu,Sắn,Cassava,annual,84.2,26.94,,Niên giám Lai Châu 2024
+Lai Châu,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Lai Châu 2024
+Lai Châu,Cà phê,Cà phê,perennial,18.7,5.65,"Phong Thổ, Sìn Hồ, Tam Đường",Niên giám Lai Châu 2024
+Lai Châu,Mận/Đào/Lê,Mận/Đào/Lê,perennial,7.5,2.34,"Sìn Hồ, Phong Thổ - ôn đới",Niên giám Lai Châu 2024
+Lai Châu,Trà,Trà,perennial,3.4,1.08,"Tam Đường, Tân Uyên",Niên giám Lai Châu 2024
+Lai Châu,Hồ tiêu,Hồ tiêu,perennial,2.1,0.67,"Phong Thổ, Sìn Hồ",Niên giám Lai Châu 2024
+Sơn La,Lúa,Rice,annual,195.2,18.19,,"Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Ngô,Maize,annual,339.9,31.68,,"Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Sắn,Cassava,annual,537.9,50.13,,"Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Cà phê (Mộc Châu),Cà phê (Mộc Châu),perennial,35.8,3.23,"Mộc Châu, Mai Sơn, Yên Châu - Robusta #1 miền Bắc","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Xoài,Xoài,perennial,24.5,2.23,"Mai Sơn, Yên Châu, Sông Mã","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Mận/Đào/Lê,Mận/Đào/Lê,perennial,12.8,1.18,"Mộc Châu, Vân Hồ - ôn đới","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Trà,Trà,perennial,8.4,0.78,"Mộc Châu, Phù Yên, Quỳnh Nhai","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Hồ tiêu,Hồ tiêu,perennial,5.6,0.52,"Mộc Châu, Mai Sơn","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Sơn La,Long nhãn,Long nhãn,perennial,6.3,0.58,"Sông Mã, Quỳnh Nhai","Niên giám Sơn La 2024, Cà phê Mộc Châu"
+Hòa Bình,Lúa,Rice,annual,214.1,44.5,,"Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Ngô,Maize,annual,147.5,30.66,,"Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Sắn,Cassava,annual,119.5,24.84,,"Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Cam/Bưởi,Cam/Bưởi,perennial,18.6,3.72,"Cao Phong, Lạc Sơn, Lạc Thủy - Cam Cao Phong","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Xoài,Xoài,perennial,14.2,2.87,"Lạc Sơn, Tân Lạc, Mai Châu","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Cà phê,Cà phê,perennial,9.5,1.94,"Mai Châu, Tân Lạc, Cao Phong","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Trà,Trà,perennial,6.2,1.27,"Mai Châu, Cao Phong","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Vải/Thiều,Vải/Thiều,perennial,5.8,1.19,"Lạc Sơn, Lạc Thủy","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Hòa Bình,Mận/Đào,Mận/Đào,perennial,4.3,0.89,"Mai Châu, Cao Phong","Niên giám Hòa Bình 2024, Cam Cao Phong"
+Thái Nguyên,Lúa,Rice,annual,344.4,79.85,,"Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Ngô,Maize,annual,71.5,16.58,,"Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Sắn,Cassava,annual,15.4,3.57,,"Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Trà (Trà Thái Nguyên),Trà (Trà Thái Nguyên),perennial,28.4,6.18,"Định Hóa, Phú Bình, Phú Lương, Đồng Hy - #1 VN","Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Cam/Bưởi,Cam/Bưởi,perennial,12.6,2.84,"Định Hóa, Phú Bình, Võ Nhai","Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Vải/Nhãn,Vải/Nhãn,perennial,8.7,1.98,"Phú Lương, Đồng Hy, Võ Nhai","Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Xoài,Xoài,perennial,6.3,1.44,"Phú Bình, Võ Nhai","Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Thái Nguyên,Chanh,Chanh,perennial,4.8,1.1,Các huyện,"Niên giám Thái Nguyên 2024, Trà Thái Nguyên (chứng chỉ địa lý)"
+Phú Thọ,Lúa,Rice,annual,333.2,66.75,,"Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Ngô,Maize,annual,80.0,16.03,,"Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Sắn,Cassava,annual,86.0,17.23,,"Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Trà,Trà,perennial,14.8,2.88,"Thanh Ba, Hạ Hoà, Thanh Sơn, Yên Lập","Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Cam/Bưởi (Cam Đoan Hùng),Cam/Bưởi (Cam Đoan Hùng),perennial,18.5,3.57,"Đoan Hùng, Thanh Ba, Hạ Hoà - đặc sản","Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Xoài,Xoài,perennial,9.4,1.85,"Thanh Sơn, Yên Lập, Cẩm Khê","Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Vải/Nhãn,Vải/Nhãn,perennial,7.2,1.42,"Thanh Ba, Hạ Hoà","Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Phú Thọ,Chanh/Quýt,Chanh/Quýt,perennial,5.6,1.11,Các huyện,"Niên giám Phú Thọ 2024, Cam Đoan Hùng"
+Tuyên Quang,Lúa,Rice,annual,245.7,69.56,,Niên giám Tuyên Quang 2024
+Tuyên Quang,Ngô,Maize,annual,85.7,24.26,,Niên giám Tuyên Quang 2024
+Tuyên Quang,Sắn,Cassava,annual,21.8,6.17,,Niên giám Tuyên Quang 2024
+Tuyên Quang,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Tuyên Quang 2024
+Tuyên Quang,Trà,Trà,perennial,11.4,3.13,"Hàm Yên, Chiêm Hóa, Na Hang",Niên giám Tuyên Quang 2024
+Tuyên Quang,Cam/Bưởi,Cam/Bưởi,perennial,10.2,2.81,"Sơn Dương, Yên Sơn, Hàm Yên",Niên giám Tuyên Quang 2024
+Tuyên Quang,Vải/Nhãn,Vải/Nhãn,perennial,8.6,2.38,"Hàm Yên, Na Hang, Chiêm Hóa",Niên giám Tuyên Quang 2024
+Tuyên Quang,Xoài,Xoài,perennial,6.8,1.89,"Yên Sơn, Hàm Yên",Niên giám Tuyên Quang 2024
+Tuyên Quang,Chanh,Chanh,perennial,4.5,1.26,Các huyện,Niên giám Tuyên Quang 2024
+Cao Bằng,Lúa,Rice,annual,136.0,39.64,,"Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Ngô,Maize,annual,147.8,43.08,,"Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Sắn,Cassava,annual,59.3,17.28,,"Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Trà (Trà Bảo Lạc),Trà (Trà Bảo Lạc),perennial,6.8,1.94,"Bảo Lạc, Trùng Khánh, Hạ Lang","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Mận/Đào/Lê,Mận/Đào/Lê,perennial,9.4,2.67,"Trùng Khánh, Hạ Lang, Nguyên Bình - ôn đới","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Cam/Bưởi,Cam/Bưởi,perennial,5.2,1.49,"Bảo Lâm, Thạch An","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Hồ tiêu,Hồ tiêu,perennial,3.1,0.9,"Trùng Khánh, Hạ Lang","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Cao Bằng,Xoài,Xoài,perennial,3.8,1.1,"Bảo Lâm, Thạch An","Niên giám Cao Bằng 2024, Mận/Đào ôn đới"
+Bắc Kạn,Lúa,Rice,annual,112.5,64.4,,Niên giám Bắc Kạn 2024
+Bắc Kạn,Ngô,Maize,annual,58.9,33.71,,Niên giám Bắc Kạn 2024
+Bắc Kạn,Sắn,Cassava,annual,3.3,1.89,,Niên giám Bắc Kạn 2024
+Bắc Kạn,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...",Niên giám Bắc Kạn 2024
+Bắc Kạn,Trà,Trà,perennial,4.2,2.35,"Ba Bể, Chợ Đồn, Bạch Thông",Niên giám Bắc Kạn 2024
+Bắc Kạn,Cam/Bưởi,Cam/Bưởi,perennial,3.8,2.13,"Ba Bể, Chợ Mới",Niên giám Bắc Kạn 2024
+Bắc Kạn,Vải/Nhãn,Vải/Nhãn,perennial,3.5,1.96,"Ba Bể, Chợ Đồn",Niên giám Bắc Kạn 2024
+Bắc Kạn,Xoài,Xoài,perennial,2.7,1.52,"Chợ Mới, Bạch Thông",Niên giám Bắc Kạn 2024
+Lạng Sơn,Lúa,Rice,annual,217.9,66.03,,"Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Ngô,Maize,annual,103.9,31.48,,"Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Sắn,Cassava,annual,8.2,2.48,,"Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Cam/Vải/Thiều,Cam/Vải/Thiều,perennial,15.6,4.51,"Văn Lãng, Văn Quan, Bắc Sơn, Hữu Lũng","Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Chanh/Quýt/Bưởi,Chanh/Quýt/Bưởi,perennial,12.8,3.73,"Văn Quan, Hữu Lũng, Chi Lăng - đặc sản chanh","Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Xoài,Xoài,perennial,7.4,2.19,"Lộc Bình, Cao Lộc","Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Lạng Sơn,Trà,Trà,perennial,3.2,0.96,"Văn Quan, Bắc Sơn","Niên giám Lạng Sơn 2024, Chanh/Vải đặc sản"
+Hà Giang,Lúa,Rice,annual,214.1,45.91,,"Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Ngô,Maize,annual,198.6,42.59,,"Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Sắn,Cassava,annual,53.6,11.49,,"Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Trà (Trà Shan Tuyết),Trà (Trà Shan Tuyết),perennial,18.4,3.8,"Xín Mần, Hoàng Su Phố, Vị Xuyên, Đồng Văn - #2 VN","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Mận/Đào/Lê,Mận/Đào/Lê,perennial,11.6,2.43,"Xín Mần, Mèo Vạc, Đồng Văn, Quản Bạ - ôn đới","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Cà phê,Cà phê,perennial,5.8,1.23,"Xín Mần, Vị Xuyên, Bắc Quang","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Hồ tiêu,Hồ tiêu,perennial,4.2,0.89,"Xín Mần, Hoàng Su Phố","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Hà Giang,Cam/Bưởi,Cam/Bưởi,perennial,3.7,0.79,"Vị Xuyên, Bắc Quang","Niên giám Hà Giang 2024, Trà Shan Tuyết (chứng chỉ địa lý)"
+Quảng Ninh,Lúa,Rice,annual,184.5,87.03,,"Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Ngô,Maize,annual,27.5,12.97,,"Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Cây lâu năm (cần bổ sung),Perennial crops (to be added),perennial,,,"Tra cứu: GSO Bảng 38, Niên giám tỉnh, Cục Trồng trọt. Loại chính: Trà, Cà phê, Cam, Bưởi, Xoài, Vải, Nhãn, Mận, Đào, Chè, Hồ tiêu, Điều...","Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Chanh (Chanh Yên Tử),Chanh (Chanh Yên Tử),perennial,14.2,6.28,"Đông Triều, Hải Hà, Ba Chẽ - đặc sản","Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Cam/Vải/Thiều,Cam/Vải/Thiều,perennial,8.6,3.9,"Bình Liêu, Đầm Hà, Hải Hà","Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Xoài,Xoài,perennial,5.4,2.48,"Bình Liêu, Đầm Hà","Niên giám Quảng Ninh 2024, Chanh Yên Tử"
+Quảng Ninh,Trà,Trà,perennial,3.8,1.76,"Bình Liêu, Hải Hà","Niên giám Quảng Ninh 2024, Chanh Yên Tử"
