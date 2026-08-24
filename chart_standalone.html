@@ -57,6 +57,7 @@
         <button class="filter-btn" data-filter="annual">🌾 Cây hàng năm</button>
         <button class="filter-btn" data-filter="perennial">🌳 Cây lâu năm</button>
         <button class="filter-btn" data-filter="export">📊 Xuất khẩu</button>
+        <button class="filter-btn" data-filter="export-all">📦 Tổng quan XK</button>
       </div>
     </div>
     
@@ -6974,6 +6975,7 @@
           return exp && exp.export_kg !== null && exp.export_kg > 0;
         });
       }
+      if (currentFilter === 'export-all') return crops;
       return crops;
     }
     
@@ -7183,12 +7185,221 @@ item.innerHTML = `<span class="legend-color" style="background:${getColor(c.name
         </div>`;
     }
     
+    const exportProvinceNameMap = {
+      'HÀ NỘI': 'Hà Nội', 'VỈNH PHỤC': 'Vĩnh Phúc', 'BẮC NINH': 'Bắc Ninh',
+      'BẮC GIANG': 'Bắc Giang', 'HŨNG YẸN': 'Hưng Yên', 'HẢI DƯƠNG': 'Hải Dương',
+      'THÃI BÌNH': 'Thái Bình', 'HÀ NAM': 'Hà Nam', 'NÀM ĐỊNH': 'Nam Định',
+      'NINH BÌNH': 'Ninh Bình', 'LÃO CẢI': 'Lào Cai', 'YÊN BÁI': 'Yên Bái',
+      'ĐIỆN BIÊN': 'Điện Biên', 'LAI CHẤU': 'Lai Châu', 'SƠN LÃ': 'Sơn La',
+      'HÀ BÌNH': 'Hòa Bình', 'THÀI NGUYÊN': 'Thái Nguyên', 'PHÚ THỐ': 'Phú Thọ',
+      'TUYÊN QUẢNG': 'Tuyên Quang', 'CÃO BẮNG': 'Cao Bằng', 'BẮC KẠN': 'Bắc Kạn',
+      'LẠNG SÓN': 'Lạng Sơn', 'HÀ GIẮNG': 'Hà Giang', 'QUẬNG NINH': 'Quảng Ninh'
+    };
+    
+    function collectAllExportData() {
+      const result = [];
+      if (!EXPORT_DATA || !EXPORT_DATA.data) return result;
+      
+      const provKeys = Object.keys(EXPORT_DATA.data);
+      provKeys.forEach(provKey => {
+        const provExports = EXPORT_DATA.data[provKey];
+        const displayName = exportProvinceNameMap[provKey] || provKey;
+        
+        Object.entries(provExports).forEach(([cropName, exportInfo]) => {
+          if (exportInfo && exportInfo.export_kg !== null && exportInfo.export_kg > 0) {
+            let category = 'annual';
+            const matchedProvKey = Object.keys(allData.data).find(k => {
+              const kNorm = k.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+              const provNorm = displayName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+              return kNorm === provNorm;
+            });
+            if (matchedProvKey) {
+              const provData = allData.data[matchedProvKey];
+              const foundCrop = (provData.crops || []).find(c => c.name === cropName || cropName.includes(c.name) || c.name.includes(cropName.split('(')[0].trim()));
+              if (foundCrop) category = foundCrop.category;
+            }
+            
+            result.push({
+              province: displayName,
+              cropName: cropName,
+              export_kg: exportInfo.export_kg,
+              export_value_usd: exportInfo.export_value_usd,
+              source: exportInfo.source || '',
+              note: exportInfo.note || '',
+              category: category
+            });
+          }
+        });
+      });
+      
+      result.sort((a, b) => b.export_kg - a.export_kg);
+      return result;
+    }
+    
+    function renderExportOverview(allExportCrops) {
+      renderExportBarChart(allExportCrops);
+      renderExportOverviewLegend(allExportCrops);
+      renderExportOverviewStats(allExportCrops);
+    }
+    
+    function renderExportBarChart(allExportCrops) {
+      const dom = document.getElementById('chart');
+      if (!chart) { chart = echarts.init(dom); }
+      
+      const chartData = allExportCrops.map(c => ({
+        value: c.export_kg,
+        name: c.province + ' - ' + c.cropName,
+        itemStyle: { color: getColor(c.cropName) }
+      }));
+      
+      const option = {
+        tooltip: {
+          trigger: 'item',
+          confine: true,
+          appendToBody: true,
+          backgroundColor: 'rgba(28, 38, 58, 0.95)',
+          borderColor: 'rgba(255,255,255,0.1)',
+          borderWidth: 1,
+          borderRadius: 10,
+          padding: [12, 16],
+          textStyle: { fontSize: 13, lineHeight: 1.8 },
+          formatter: (p) => {
+            const c = allExportCrops[p.dataIndex];
+            const kg = c.export_kg;
+            const displayKg = kg >= 1000000 ? (kg / 1000000).toFixed(1) + ' triệu kg' : (kg / 1000).toFixed(0) + ' tấn';
+            return `<strong style="color:#fff;font-size:14px">${c.cropName}</strong><br/>` +
+                   `<span style="color:#b8c5d6">Tỉnh:</span> <strong style="color:#fff">${c.province}</strong><br/>` +
+                   `<span style="color:#b8c5d6">Xuất khẩu:</span> <strong style="color:#fff">${displayKg}</strong><br/>` +
+                   (c.export_value_usd ? `<span style="color:#b8c5d6">Giá trị:</span> <strong style="color:#fff">${c.export_value_usd.toLocaleString()} USD</strong><br/>` : '') +
+                   (c.source ? `<span style="color:#b8c5d6">${c.source}</span>` : '');
+          }
+        },
+        legend: { show: false },
+        grid: { left: '3%', right: '8%', bottom: '3%', top: '3%', containLabel: true },
+        xAxis: {
+          type: 'value',
+          axisLabel: {
+            formatter: (v) => v >= 1000000 ? (v / 1000000).toFixed(0) + 'M' : (v / 1000).toFixed(0) + 'K'
+          },
+          splitLine: { lineStyle: { type: 'dashed', color: '#e8ecf1' } }
+        },
+        yAxis: {
+          type: 'category',
+          data: chartData.map(d => d.name).reverse(),
+          axisLabel: { fontSize: 11, color: '#2c3e50', width: 180, overflow: 'truncate' },
+          axisTick: { show: false },
+          axisLine: { show: false }
+        },
+        series: [{
+          type: 'bar',
+          data: chartData.reverse(),
+          barMaxHeight: 28,
+          itemStyle: {
+            borderRadius: [0, 6, 6, 0],
+            shadowColor: 'rgba(0,0,0,0.08)',
+            shadowBlur: 4,
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+          },
+          label: {
+            show: true,
+            position: 'right',
+            formatter: (p) => {
+              const kg = p.value;
+              return kg >= 1000000 ? (kg / 1000000).toFixed(1) + 'M kg' : (kg / 1000).toFixed(0) + ' tấn';
+            },
+            fontSize: 10,
+            color: '#5a6a8a'
+          },
+          emphasis: {
+            itemStyle: { shadowBlur: 8, shadowColor: 'rgba(0,0,0,0.15)' }
+          }
+        }],
+        animationDuration: 1200,
+        animationEasing: 'cubicOut'
+      };
+      
+      chart.setOption(option, true);
+    }
+    
+    function renderExportOverviewLegend(allExportCrops) {
+      const container = document.getElementById('customLegend');
+      container.innerHTML = '';
+      
+      const cats = [...new Set(allExportCrops.map(c => c.category))].sort((a, b) => a === 'annual' ? -1 : 1);
+      
+      cats.forEach(cat => {
+        const catCrops = allExportCrops.filter(c => c.category === cat);
+        if (!catCrops.length) return;
+        
+        const group = document.createElement('div');
+        group.className = 'legend-group';
+        
+        const title = document.createElement('span');
+        title.className = 'legend-group-title';
+        title.textContent = cat === 'annual' ? 'Cây hàng năm' : 'Cây lâu năm';
+        group.appendChild(title);
+        
+        catCrops.forEach(c => {
+          const item = document.createElement('span');
+          item.className = 'legend-item';
+          const kgVal = c.export_kg;
+          const displayVal = kgVal >= 1000000 ? (kgVal / 1000000).toFixed(1) + 'M kg' : (kgVal / 1000).toFixed(0) + ' tấn';
+          item.innerHTML = `<span class="legend-color" style="background:${getColor(c.cropName)}"></span><span>${c.province} - ${c.cropName}</span><span style="color:#8a9ab0;font-size:0.75rem;">${displayVal}</span>`;
+          group.appendChild(item);
+        });
+        
+        container.appendChild(group);
+      });
+    }
+    
+    function renderExportOverviewStats(allExportCrops) {
+      const container = document.getElementById('stats');
+      
+      const totalKg = allExportCrops.reduce((sum, c) => sum + c.export_kg, 0);
+      const totalUsd = allExportCrops.reduce((sum, c) => sum + (c.export_value_usd || 0), 0);
+      const provinces = new Set(allExportCrops.map(c => c.province));
+      const crops = new Set(allExportCrops.map(c => c.cropName));
+      
+      container.innerHTML = `
+        <div class="stat-card">
+          <div class="stat-value" style="color:#1a2a4a">${totalKg.toLocaleString(undefined, {maximumFractionDigits: 1})}</div>
+          <div class="stat-label">Tổng xuất khẩu (kg)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#27ae60">${totalUsd > 0 ? totalUsd.toLocaleString(undefined, {maximumFractionDigits: 0}) : 'N/A'}</div>
+          <div class="stat-label">Giá trị (USD)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#3498db">${provinces.size} tỉnh</div>
+          <div class="stat-label">Số tỉnh có XK</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#e67e22">${crops.size} loại</div>
+          <div class="stat-label">Số loại cây XK</div>
+        </div>`;
+    }
+    
     function renderChart() {
       if (!allData || !currentProvince) return;
-      const provData = allData.data[currentProvince];
-      if (!provData) return;
       
       hideNoData();
+      
+      // Handle export-all: aggregate data across all provinces
+      if (currentFilter === 'export-all') {
+        const allExportCrops = collectAllExportData();
+        if (allExportCrops.length === 0) {
+          showNoData('Không có dữ liệu xuất khẩu');
+          document.getElementById('customLegend').innerHTML = '';
+          document.getElementById('stats').innerHTML = '';
+          return;
+        }
+        renderExportOverview(allExportCrops);
+        return;
+      }
+      
+      const provData = allData.data[currentProvince];
+      if (!provData) return;
       
       // Handle export filter
       let crops = [];
